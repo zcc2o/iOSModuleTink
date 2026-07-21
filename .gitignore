@@ -1,0 +1,13 @@
+
+# ── Framework 编译产物 ──
+**/Binary/*.framework/
+**/Binary/*.a
+**/Derived/
+
+# ── Xcode ──
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# ── 临时文件 ──
+.build_binary/
+.hdrmap/

@@ -1,0 +1,24 @@
+name: ZCCLogComponent
+options:
+  bundleIdPrefix: com.zcc.foundation
+  deploymentTarget:
+    iOS: "15.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+targets:
+  ZCCLogComponent:
+    type: framework
+    platform: iOS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.zcc.ZCCLogComponent
+        MACH_O_TYPE: staticlib
+        GENERATE_INFOPLIST_FILE: "YES"
+        DEFINES_MODULE: "NO"
+        SKIP_INSTALL: "YES"
+        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
+    sources:
+      - path: Classes
+        type: group

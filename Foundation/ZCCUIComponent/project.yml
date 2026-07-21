@@ -1,0 +1,25 @@
+name: ZCCUIComponent
+options:
+  bundleIdPrefix: com.zcc.foundation
+  deploymentTarget:
+    iOS: "15.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+targets:
+  ZCCUIComponent:
+    type: framework
+    platform: iOS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.zcc.ZCCUIComponent
+        MACH_O_TYPE: staticlib
+        GENERATE_INFOPLIST_FILE: "YES"
+        DEFINES_MODULE: "NO"
+        SKIP_INSTALL: "YES"
+        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
+        FRAMEWORK_SEARCH_PATHS:
+          - $(SRCROOT)/../ZCCLogComponent/Binary
+    sources:
+      - path: Classes
+        type: group
