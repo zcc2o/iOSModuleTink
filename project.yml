@@ -1,0 +1,27 @@
+name: MainApp
+options:
+  bundleIdPrefix: com.componentizedapp
+  deploymentTarget:
+    iOS: "15.0"
+  xcodeVersion: "16.0"
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+
+targets:
+  MainApp:
+    type: application
+    platform: iOS
+    sources:
+      - path: MainApp/
+        type: group
+        excludes:
+          - "Info.plist"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.componentizedapp.MainApp
+        INFOPLIST_FILE: MainApp/Info.plist
+        CODE_SIGN_STYLE: Automatic
+    dependencies: []

@@ -1,0 +1,27 @@
+{
+  "name": "ZCCBaseAssetModule",
+  "version": "1.0.0",
+  "summary": "ZCCBaseAssetModule",
+  "homepage": "https://github.com/example/ZCCBaseAssetModule",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": "ComponentizedApp",
+  "source": {
+    "git": "https://github.com/example/ZCCBaseAssetModule.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "frameworks": "Foundation",
+  "requires_arc": true,
+  "dependencies": {
+    "ZCCMediator": [],
+    "ZCCUIComponent": [],
+    "ZCCWebComponent": [],
+    "ZCCLogComponent": []
+  },
+  "source_files": "Classes/**/*.{h,m}",
+  "public_header_files": "Classes/**/*.h"
+}

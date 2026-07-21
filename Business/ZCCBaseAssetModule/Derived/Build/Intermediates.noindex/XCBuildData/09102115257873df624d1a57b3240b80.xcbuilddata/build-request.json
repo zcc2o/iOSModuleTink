@@ -1,0 +1,66 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "3c73656e1825f5be061a43e2462ce0f4ebb2701f30483b073e9ef7a0135fa0f3"
+    }
+  ],
+  "containerPath" : "/Users/zcc/Desktop/组件化的一些思考/ComponentizedApp/Business/ZCCBaseAssetModule/ZCCBaseAssetModule.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "hostTargetedPlatform" : null,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator26.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "i386",
+        "x86_64"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/zcc/Desktop/组件化的一些思考/ComponentizedApp/Business/ZCCBaseAssetModule/Derived/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/zcc/Desktop/组件化的一些思考/ComponentizedApp/Business/ZCCBaseAssetModule/Derived/Build/Products",
+      "derivedDataPath" : "/Users/zcc/Desktop/组件化的一些思考/ComponentizedApp/Business/ZCCBaseAssetModule/Derived",
+      "indexDataStoreFolderPath" : "/Users/zcc/Desktop/组件化的一些思考/ComponentizedApp/Business/ZCCBaseAssetModule/Derived/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/zcc/Desktop/组件化的一些思考/ComponentizedApp/Business/ZCCBaseAssetModule/Derived/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/zcc/Desktop/组件化的一些思考/ComponentizedApp/Business/ZCCBaseAssetModule/Derived/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "BUILD_LIBRARY_FOR_DISTRIBUTION" : "YES",
+          "SDKROOT" : "iphonesimulator26.4",
+          "SKIP_INSTALL" : "NO"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,28 @@
+{
+  "name": "ZCCOrderModule",
+  "version": "1.0.0",
+  "summary": "订单模块 — 提供订单按钮状态与详情跳转",
+  "homepage": "https://github.com/example/ZCCOrderModule",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": "ComponentizedApp",
+  "source": {
+    "git": "https://github.com/example/ZCCOrderModule.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "Classes/**/*.{h,m}",
+  "public_header_files": "Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "ZCCMediator": [],
+    "ZCCLogComponent": []
+  }
+}

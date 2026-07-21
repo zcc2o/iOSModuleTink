@@ -1,0 +1,29 @@
+{
+  "name": "ZCCBenefitModule",
+  "version": "1.0.0",
+  "summary": "权益业务模块 — 用户权益列表、详情展示",
+  "homepage": "https://github.com/example/ZCCBenefitModule",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": "ComponentizedApp",
+  "source": {
+    "git": "https://github.com/example/ZCCBenefitModule.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "Classes/**/*.{h,m}",
+  "public_header_files": "Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "ZCCMediator": [],
+    "ZCCUIComponent": [],
+    "ZCCLogComponent": []
+  }
+}

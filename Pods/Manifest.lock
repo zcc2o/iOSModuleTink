@@ -1,0 +1,85 @@
+PODS:
+  - ZCCAssetModule (1.0.0):
+    - ZCCBaseAssetModule
+  - ZCCBaseAssetModule (1.0.0):
+    - ZCCLogComponent
+    - ZCCMediator
+    - ZCCUIComponent
+    - ZCCWebComponent
+  - ZCCBenefitModule (1.0.0):
+    - ZCCLogComponent
+    - ZCCMediator
+    - ZCCUIComponent
+  - ZCCCertificateModule (1.0.0):
+    - ZCCLogComponent
+    - ZCCMediator
+  - ZCCContractModule (1.0.0):
+    - ZCCLogComponent
+    - ZCCMediator
+  - ZCCLogComponent (1.0.0)
+  - ZCCMediator (1.0.0)
+  - ZCCOrderModule (1.0.0):
+    - ZCCLogComponent
+    - ZCCMediator
+  - ZCCProductModule (1.0.0):
+    - ZCCLogComponent
+    - ZCCMediator
+    - ZCCUIComponent
+  - ZCCUIComponent (1.0.0):
+    - ZCCLogComponent
+  - ZCCWebComponent (1.0.0):
+    - ZCCLogComponent
+
+DEPENDENCIES:
+  - ZCCAssetModule (from `./Business/ZCCAssetModule`)
+  - ZCCBaseAssetModule (from `./Business/ZCCBaseAssetModule`)
+  - ZCCBenefitModule (from `./Business/ZCCBenefitModule`)
+  - ZCCCertificateModule (from `./Business/ZCCCertificateModule`)
+  - ZCCContractModule (from `./Business/ZCCContractModule`)
+  - ZCCLogComponent (from `./Foundation/ZCCLogComponent`)
+  - ZCCMediator (from `./Mediator/ZCCMediator`)
+  - ZCCOrderModule (from `./Business/ZCCOrderModule`)
+  - ZCCProductModule (from `./Business/ZCCProductModule`)
+  - ZCCUIComponent (from `./Foundation/ZCCUIComponent`)
+  - ZCCWebComponent (from `./Foundation/ZCCWebComponent`)
+
+EXTERNAL SOURCES:
+  ZCCAssetModule:
+    :path: "./Business/ZCCAssetModule"
+  ZCCBaseAssetModule:
+    :path: "./Business/ZCCBaseAssetModule"
+  ZCCBenefitModule:
+    :path: "./Business/ZCCBenefitModule"
+  ZCCCertificateModule:
+    :path: "./Business/ZCCCertificateModule"
+  ZCCContractModule:
+    :path: "./Business/ZCCContractModule"
+  ZCCLogComponent:
+    :path: "./Foundation/ZCCLogComponent"
+  ZCCMediator:
+    :path: "./Mediator/ZCCMediator"
+  ZCCOrderModule:
+    :path: "./Business/ZCCOrderModule"
+  ZCCProductModule:
+    :path: "./Business/ZCCProductModule"
+  ZCCUIComponent:
+    :path: "./Foundation/ZCCUIComponent"
+  ZCCWebComponent:
+    :path: "./Foundation/ZCCWebComponent"
+
+SPEC CHECKSUMS:
+  ZCCAssetModule: 67ff080ff53f5838b99ee8f4d81ab6a023bcefda
+  ZCCBaseAssetModule: a73ecb686757da2a311b05519ac6cb3fb5edf49c
+  ZCCBenefitModule: 90773b5888cf2257cada4e6babcead6a8e3d357d
+  ZCCCertificateModule: 5bdc84b00a2e9668fcee1ff5496cb4244228b2fd
+  ZCCContractModule: eb22a480a4dd789cfa082cf869004a895f74a393
+  ZCCLogComponent: 15223980f7c2e45bfeddf8c86a92eef2d9d60026
+  ZCCMediator: fd276d58c1ae20062f02620379160056676cf9e0
+  ZCCOrderModule: 2a6ca8b1e2aa6db25759d3a3707c2b55e1ec1abe
+  ZCCProductModule: e64e96ac70f43863b2fdf20a331f5858e7da2510
+  ZCCUIComponent: 54ee1909419f0aabf1e225ca2015be43c62825ce
+  ZCCWebComponent: 675b3bfc0105c08fe50bd71dc0ebb925dc340268
+
+PODFILE CHECKSUM: ff010290348e3da6e64cf7fb5e6d617cae353a79
+
+COCOAPODS: 1.16.2

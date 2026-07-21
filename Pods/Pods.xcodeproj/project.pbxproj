@@ -1,0 +1,2959 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0124A9900FD1612E05AA3E31BEF90ED3 /* ZCCAssetStateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F286C0D2F359872D03DC3025302EAA06 /* ZCCAssetStateModel.m */; };
+		04E92C4A1A1C5A494DDFF4041C4B4D7D /* ZCCOrderModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D1C8755A9DCD0F455439411721A2564 /* ZCCOrderModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08AFFFFC76CA421D1005B664F74C91AB /* ZCCCertificateModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C55E30B8C78B572E8013E4F4EADE2D83 /* ZCCCertificateModule.m */; };
+		095C27E8475B83EDD94D394B13D80D8D /* ZCCBenefitService.h in Headers */ = {isa = PBXBuildFile; fileRef = 56218C4AD209AD89BDB1BE870FD98779 /* ZCCBenefitService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0AEBAE20D86CDC7FCBAACAB1AA273AD7 /* ZCCBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCB4E96859905773DCF03A4922BF6F0 /* ZCCBaseNavigationController.m */; };
+		0ED68959AD5BF90680D980F29F6B892E /* ZCCCertificateService.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB22B8CD2C2223830799E2FF81EEC2C /* ZCCCertificateService.m */; };
+		10722D96E098E6A499BB23BAA5BED5D8 /* ZCCLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 959054BFF9DA3B5C29F7755F6533ABAF /* ZCCLogFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16524108D24EAF4FE5175A0768888CE2 /* UIView+ZCCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E7D9D413842E1F02B485D0B78E4888 /* UIView+ZCCExtension.m */; };
+		166DEE811D3D03AABFF6BDD3A4114C7D /* ZCCAssetViewHelper_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4FB9899A327749D423B6DA83A4C38E /* ZCCAssetViewHelper_4.m */; };
+		17A2959EC9098BF12266DD1F5E3E56E8 /* ZCCProductListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 109885BF86F743A8E1AA7B5FCD05B78E /* ZCCProductListVC.m */; };
+		184DEEE1B42334A70EA4D6C92D6A463B /* ZCCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 84CC08DD3D09190F3A60BE21AE7730AB /* ZCCLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1CDB1ABBB11DEE7606E10EC0CF735D58 /* ZCCAssetListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38519F8184A7D51788547D9638338C36 /* ZCCAssetListVC.m */; };
+		20DD45C64848459238991CF53ADDA971 /* ZCCResaleCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 172950C1C32B005FACA86A6453C77A05 /* ZCCResaleCardView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		262C042C7F551FBB90B48978147FAEBF /* ZCCBenefitModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1302065DC3EADCE3E0763753F8EAAC41 /* ZCCBenefitModule-dummy.m */; };
+		2BADDEBFEF0895C026207D157187A554 /* ZCCAssetService.h in Headers */ = {isa = PBXBuildFile; fileRef = B49CE3A3936ACE9F5CD3BE562021177E /* ZCCAssetService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F237932582A6CA7E19381154A4A213B /* ZCCOrderModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F19071DCFED5F30CEE47A343EEBBF7F0 /* ZCCOrderModule-dummy.m */; };
+		3570CF3A4B297358F5CCDDCA763F6DDC /* ZCCProductDetailCard.m in Sources */ = {isa = PBXBuildFile; fileRef = E0351F68DF78E7A5C92A2D364F9D4697 /* ZCCProductDetailCard.m */; };
+		35980579C97E2078898E7AA942664439 /* ZCCOrderModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F1E5AD22327DE89A6554AF303E409B /* ZCCOrderModule.m */; };
+		38333FF3C18C54E7D019B94B4E51F1AE /* Pods-MainApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A354E98F4C2B56062B8D949C61A066D3 /* Pods-MainApp-dummy.m */; };
+		389D28E3F9AE2FD56054E8289E0BCE84 /* ZCCContractModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 27023E63CB98928F72312AB52291C30A /* ZCCContractModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B55C5D27AFE9C153C6A7F765F729F7B /* ZCCBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B4330B05C9F1650263FF52721AA61E /* ZCCBannerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4BBB64C46A06319337B52A9EA37801A0 /* ZCCOrderService.m in Sources */ = {isa = PBXBuildFile; fileRef = F935499CE773F6D65279909AFD909762 /* ZCCOrderService.m */; };
+		4D23C52D6325DB5EBA75EDFEA8574C45 /* ZCCProductModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA410D3D45858A461A8A767BFD9C92 /* ZCCProductModule-dummy.m */; };
+		514812413BA27313CA6ACF37392EEB11 /* ZCCBenefitModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD2EF41C31A03EAAE943794CF779A0C /* ZCCBenefitModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		51FD3903E58567A1EA0D27A5622015ED /* ZCCAssetActionCard.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F647A13C98DB16144E9273A0D8A836 /* ZCCAssetActionCard.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5263DF841E95EC5412D60DA388822E61 /* ZCCAssetViewHelper_5.h in Headers */ = {isa = PBXBuildFile; fileRef = 81726993A28C0E6C4C0D014EB8DA976B /* ZCCAssetViewHelper_5.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5652A099D34C45E214D4AD6704BCC977 /* ZCCBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 68971D37A17FF995C71375AEAF820159 /* ZCCBaseTableViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5995A39FBE2F7B3D814B420F04AA2AF8 /* ZCCAssetModule.h in Headers */ = {isa = PBXBuildFile; fileRef = F35626A4D2E2C123E9DBD6E548B8A8F3 /* ZCCAssetModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A7ED8215E46F60AF82AB991414ACE58 /* ZCCAssetModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A44A8DD52EA9C91B752EC4A3DC3C4F /* ZCCAssetModule.m */; };
+		5D4CCAA4066CF99A44F3381F7BDB20E6 /* ZCCAssetDetailVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 7114BE6232519D59B5095098850BF4AE /* ZCCAssetDetailVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62BABD67FEA80955575093B8DE3BDF2C /* ZCCProductService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D7C93F2ED6F0BC99F4D0DA7900D3C /* ZCCProductService.m */; };
+		62C7695351331413A7D811531F882CB7 /* ZCCAssetViewHelper_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A15409876F7BBD3DF589FD18BBBD691 /* ZCCAssetViewHelper_2.m */; };
+		635A85076A0041B6012A870475C9EBDC /* ZCCProductDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8298CCB9D84411DBE14E81B44D620D2C /* ZCCProductDetailVC.m */; };
+		6456983752A538DE5C257C78A669BCDF /* ZCCContractModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF66F06B1FE9BF01880B3C9ADA8F731 /* ZCCContractModule.m */; };
+		6649552079B3C86B6376693BBA487440 /* ZCCServiceProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C9FE8C989E8C0E1B8F1BF144073EEB /* ZCCServiceProtocols.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69CD1D33F36E0ECA3BBA92BBD4617EB0 /* ZCCAssetDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B1265271E25EEE76309DC625115A8D /* ZCCAssetDetailVC.m */; };
+		6E5CF3E548045FCAC2161E9163257144 /* ZCCBaseAssetModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB420505ED92CA337C8F83E49F32A9 /* ZCCBaseAssetModule-dummy.m */; };
+		7328E6B9D46F10A5C8583D0610825CEE /* ZCCProductDetailVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 7297B5CD1A48B94E143C78C87DD5797A /* ZCCProductDetailVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7441A5749F40A50789D71C82CDB66706 /* ZCCAssetViewHelper_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 218A07CE4524FF8CE60C6518580C4E93 /* ZCCAssetViewHelper_1.m */; };
+		748854517354A573104CF270AC2BD592 /* ZCCProductService.h in Headers */ = {isa = PBXBuildFile; fileRef = 073CE6746F6BA3AC5CC0E8062B649CEE /* ZCCProductService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		781D0E3AD36DF03D67EF8799A86F4F64 /* ZCCLogComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4187F6324280FAE69D0F433190D8C48 /* ZCCLogComponent-dummy.m */; };
+		78A4DE21CC6E697201B2FD629D07EB34 /* ZCCProductTraceCard.h in Headers */ = {isa = PBXBuildFile; fileRef = D2459C58E88E99DF3166ED875490B890 /* ZCCProductTraceCard.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		79C8F9BA7733D24AFE78F1D601B93C91 /* ZCCOrderService.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9864EB8D36FE26ACEECF74D1D57996 /* ZCCOrderService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		79D93CACDAF16EE14AE83E62A4D87DD7 /* ZCCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DD27B96B65E7F733512C63BC8483A6A5 /* ZCCLogger.m */; };
+		7C1129EB67E6E3DBF11B25FC6D540E8E /* ZCCAssetModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EED6442E95CE45F5808BA0BBEB81F /* ZCCAssetModule-dummy.m */; };
+		7CC9676D64614B328E52EFB7BA70F94E /* ZCCAssetViewHelper_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 63355999A1329EE64750B359FA5FDB61 /* ZCCAssetViewHelper_3.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F25C72726EE2249485ED7E44C1B8697 /* ZCCBenefitDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA02B0AB99517E7FF29FE6B8D05F89B /* ZCCBenefitDetailVC.m */; };
+		803BB67AC0E8AADEB7C3539274154AE2 /* ZCCBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE188B50AEBE89355BB04BDD671DDF98 /* ZCCBaseTableViewCell.m */; };
+		8306069B090774F3EF3CCDCEB46D7935 /* ZCCAssetStateModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 075C55DB03026E6DEB21DEFDE55E46D6 /* ZCCAssetStateModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		841BA4CAF52D25282D15DCBBDC2AD298 /* ZCCBenefitModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA7E8561E98144B6A8224B969F5382 /* ZCCBenefitModule.m */; };
+		87264751BF64CF98CBBC3A58544A89D3 /* ZCCUIComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF77E5912406107D4FA65A7421998A66 /* ZCCUIComponent-dummy.m */; };
+		87F5AF587E0FE58B33214B983098D5ED /* ZCCMediator+Business.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F488859B767A1BDAB8425D1F759C1F /* ZCCMediator+Business.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88D492CC72E4E28911679191CC9E41D6 /* ZCCProductDetailCard.h in Headers */ = {isa = PBXBuildFile; fileRef = C04C7B70CB4E57E58FB64791BE2EBEC8 /* ZCCProductDetailCard.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BA850D834D7DC0F6AA263C19CBE1558 /* ZCCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E495A79CC4A305E38696B2F815EE44FD /* ZCCBaseViewController.m */; };
+		8EE0A7D2E993318C8551C8713DEC0699 /* ZCCAssetViewHelper_1.h in Headers */ = {isa = PBXBuildFile; fileRef = F4647A117525DC62E9018AA8EF3D87C8 /* ZCCAssetViewHelper_1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F65BA2818CFF9B89EE25146E9B3EB53 /* ZCCModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EA30E070009682CFA891F3F35F358E /* ZCCModuleProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92E78D5D115C39B838325ADE3475EEC8 /* ZCCContractModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0232045BA6C684B3CDC17D05771DAEA /* ZCCContractModule-dummy.m */; };
+		937CD6F526C39E17D782FFEA77221B37 /* ZCCAssetViewHelper_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A61FCBBD41941C3BB2F7FBEABF7DB6 /* ZCCAssetViewHelper_5.m */; };
+		96D8B86BEFD8F9D46E452E3ED297C573 /* ZCCModuleDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5981172A3E01251D66CCB27695634D08 /* ZCCModuleDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98A7DB8DC47077BACC744E6B867A3BC8 /* ZCCProductModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 956327E34C0931409707E9B18A3FCB1B /* ZCCProductModule.m */; };
+		98BB279BA43BFF7BEC499766DE692E90 /* ZCCProductModule.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CDE0C3937FBF21812E35C978F0D797 /* ZCCProductModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9AEA12295C9B31E127B562E5253542E3 /* ZCCCertificateModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B597B1694EA1248F5FDC2450BB27F /* ZCCCertificateModule-dummy.m */; };
+		9BA3D69796270A9BEA2B9EA48621C6D1 /* ZCCAssetListVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 855921A7AEA281EB65758A122B89014F /* ZCCAssetListVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1F0659549E70A4350DB3BAEB6BD07F9 /* ZCCCertificateModule.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0210FD476F477082D58C019FA20CAD /* ZCCCertificateModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A30A1973F2131742A3B1EE04BA34D730 /* ZCCAssetViewHelper_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F8D4883266DAC5DD56291C863F1C6F /* ZCCAssetViewHelper_3.m */; };
+		A679E3D501F83ABF21CC7B7D22FBCDB9 /* ZCCResaleCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF57C9AFAF9DFF2FE41BC6F7A40196 /* ZCCResaleCardView.m */; };
+		AC81312985F40A9826200A1AC88088ED /* ZCCAssetService.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AB85F2F1D08D5C0B4D7BB1A8467934 /* ZCCAssetService.m */; };
+		AF247D9E4768D7D855EAD90E2839BB35 /* UIView+ZCCExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E875AC6C6E7A8E7FACA9637472266B6E /* UIView+ZCCExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF423AF609EE5E118BCB697263230080 /* ZCCMediator+Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 233AE46FC2FA66E12505BCA423082754 /* ZCCMediator+Business.m */; };
+		B07045D3C2C9BD8BD7CE8DF4B5739864 /* ZCCContractService.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9527549A0FEB6D7D168535E2DD8CA7 /* ZCCContractService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5CF8B368779DFBDC9937C15C8D308D0 /* ZCCWebComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D44E0D85E69BF917A912C8F7B8366031 /* ZCCWebComponent-dummy.m */; };
+		BB4958548624B6213380F9AADAE491F2 /* ZCCAssetViewHelper_2.h in Headers */ = {isa = PBXBuildFile; fileRef = D29FC4D9218224AB1D6D15D3EC610CB3 /* ZCCAssetViewHelper_2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC725C6FF041C8BBCBEB790C9C97DA85 /* ZCCBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 085AB0270D4723651CBE31B104DEBD07 /* ZCCBaseNavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDA28160E2778A084E81DEDB6281341E /* ZCCLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 677C7D6D04D9FC47E9B6D87E0595BCDC /* ZCCLogFormatter.m */; };
+		C2B7EC92561B45A739C27413937BCE23 /* ZCCMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF06CE6ED57585F6E1648B107A031BC4 /* ZCCMediator.m */; };
+		CCC63715BCBEB32CEEEE6833535982F3 /* ZCCWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C226FB14B6F96857F9E92E577D8622F /* ZCCWebViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF69E4D36004A2F0872AC5C86958AF20 /* ZCCAssetViewHelper_4.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4E037D0295266E3F978202581C44E4 /* ZCCAssetViewHelper_4.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CFEFFAA4444A5692A26C8F379529B009 /* ZCCMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C602C0301B0CDB1792BAFEE5ADFB8 /* ZCCMediator-dummy.m */; };
+		D301CCD0E10F3DE7BA98FF713C362D15 /* ZCCBenefitListVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F9A9E8FC4660F851BCF3CC51AA98AF2 /* ZCCBenefitListVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D53ACC3702CE5B923CB088CB1D0933D4 /* ZCCBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A9031E9AE59BE2AAAE8198EF0AA15B /* ZCCBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D818592BDD03AA9EA8DA6832BFD1691C /* ZCCMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9978EDADC35C512F418F676BF9073F91 /* ZCCMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D97510D13DF2D279DCE1ED919956DD1B /* ZCCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DBFD0CC3FCC65837D4425CDDCC2E59 /* ZCCWebViewController.m */; };
+		DA91DC9835F8415618F570C083E88B7D /* ZCCAssetActionCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 90113305E56F72183F5DD129327729C2 /* ZCCAssetActionCard.m */; };
+		E13B73644A81EB43882D887D5D96E56A /* ZCCServiceModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A9AFABB3B3184A1804AECB8C7DA95D /* ZCCServiceModels.m */; };
+		E615A5246174DB7EFEE3D92CBF1F9466 /* ZCCJSBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = E89EBBD781415301F3E3EF893124A884 /* ZCCJSBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7812A5ACE1E24A0502583FC3C90EB48 /* ZCCProductTraceCard.m in Sources */ = {isa = PBXBuildFile; fileRef = D829D9BBA044F0A69F777879555417DF /* ZCCProductTraceCard.m */; };
+		E7AD4E9F420C2BE0F9E3E70C23DF2B20 /* ZCCCertificateService.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5B7B69A98F87AF0BE986741C4FFD28 /* ZCCCertificateService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB0F4F9DA7B42D4AEF141F9B26E8902A /* ZCCJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F04A5CF9532ECB4B55E95CCFB8ED5 /* ZCCJSBridge.m */; };
+		EC2EA1402B3C7671A43E38FDFFED0D8B /* ZCCBenefitService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D9A8D1A7AF8B2F348C726187F723F /* ZCCBenefitService.m */; };
+		EEC52E8D7CAB82F78B1225406AB80395 /* ZCCBenefitDetailVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E4AF2E136DFC3D28F57D037F40F6E0 /* ZCCBenefitDetailVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F28A8F0CD5EE3C035658681A18064B56 /* ZCCBenefitListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3529C8DC557A97BC6B0337D748FA755 /* ZCCBenefitListVC.m */; };
+		F505448A245A07CB2B6A84FC1AB47099 /* ZCCBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 118250ED68E7112CD1EB488E1361D6F6 /* ZCCBannerView.m */; };
+		F62BB48A5B1599FD02219207084D7261 /* ZCCContractService.m in Sources */ = {isa = PBXBuildFile; fileRef = A416F04579A6C7152FEE2533712B4DE6 /* ZCCContractService.m */; };
+		FB0D58AC7219533A9AC10E896EA2A191 /* ZCCProductListVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4404A3A9EA6C8D402A511D8A426F34 /* ZCCProductListVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		074A21300BDFB58CF8569B7596EA3307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EB5BC7D9426196FD1BA3114382B952;
+			remoteInfo = ZCCMediator;
+		};
+		0C5D07E8A9E559262D0438EC7FFA2761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADCC8BDB7846C304B37BA0727F839584;
+			remoteInfo = ZCCWebComponent;
+		};
+		0E42A0B157F6EB50C79F98978158A7E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EB5BC7D9426196FD1BA3114382B952;
+			remoteInfo = ZCCMediator;
+		};
+		18231179CD1AC07A59B334A305FEAEE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39274A822090AF8725DA75C174D2D7C;
+			remoteInfo = ZCCLogComponent;
+		};
+		1B061D2B3A9992AAB793E8F7120CB5AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13167F2D378D259F74200461BBFE57D5;
+			remoteInfo = ZCCUIComponent;
+		};
+		1EB29137E6DB3841D48CAC8081371D11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13167F2D378D259F74200461BBFE57D5;
+			remoteInfo = ZCCUIComponent;
+		};
+		2484A0875559C60F9033C21474452E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EB5BC7D9426196FD1BA3114382B952;
+			remoteInfo = ZCCMediator;
+		};
+		25C95EB8F18119C281079F1E60728CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 763330A0AC2D9B99F339A6395465FAF9;
+			remoteInfo = ZCCProductModule;
+		};
+		26A42D3F0C0B4805390F45D172EB29A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EB5BC7D9426196FD1BA3114382B952;
+			remoteInfo = ZCCMediator;
+		};
+		288A053F5C64614F1E643A1677B58E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2BB69710C6C9D0AFA206502BC0EA5F6;
+			remoteInfo = ZCCOrderModule;
+		};
+		30ED970D82B26D9D782CF7F645839C67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39274A822090AF8725DA75C174D2D7C;
+			remoteInfo = ZCCLogComponent;
+		};
+		4661CF9D6879FB287D498B37B62B784A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13167F2D378D259F74200461BBFE57D5;
+			remoteInfo = ZCCUIComponent;
+		};
+		4CBD74BBCE491AF4AD992AC8385CEC81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EB5BC7D9426196FD1BA3114382B952;
+			remoteInfo = ZCCMediator;
+		};
+		51963BBEE2E2DECD491384A390002014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D19395C2073B7BB5330406C3DBEBC8A5;
+			remoteInfo = ZCCBenefitModule;
+		};
+		5D4E56C302EF52135E7259B006AF5667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39274A822090AF8725DA75C174D2D7C;
+			remoteInfo = ZCCLogComponent;
+		};
+		5EF43EE07053E223F33210563CA6F458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADCC8BDB7846C304B37BA0727F839584;
+			remoteInfo = ZCCWebComponent;
+		};
+		630C4DCBCA0BCF94EC426558C2C920E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 871B01FFC38593AFD7A992387E9BADA4;
+			remoteInfo = ZCCCertificateModule;
+		};
+		77243BB54A0E22F98A4C3CF66773837A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39274A822090AF8725DA75C174D2D7C;
+			remoteInfo = ZCCLogComponent;
+		};
+		77CDD28C947E7A788828095248244F73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39274A822090AF8725DA75C174D2D7C;
+			remoteInfo = ZCCLogComponent;
+		};
+		7F175E3B98C26635D3EDB7C2B0600D5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58E5D4E5E8B41CE2FE753A17EF4BEE1B;
+			remoteInfo = ZCCBaseAssetModule;
+		};
+		817BEA7F2DA956013EB6DA12CADAC538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39274A822090AF8725DA75C174D2D7C;
+			remoteInfo = ZCCLogComponent;
+		};
+		8652CC8ACAEA29CDB4B519CC81723860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58E5D4E5E8B41CE2FE753A17EF4BEE1B;
+			remoteInfo = ZCCBaseAssetModule;
+		};
+		9F165726331CBDEDDF40D645CC217DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF71D4C439A779F1603FD248C6D5D2D;
+			remoteInfo = ZCCAssetModule;
+		};
+		B05A416929FAA70CF2FCF6099BF329C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EB5BC7D9426196FD1BA3114382B952;
+			remoteInfo = ZCCMediator;
+		};
+		D2D67F97AF64692BB5FF9CF917AEED10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EB5BC7D9426196FD1BA3114382B952;
+			remoteInfo = ZCCMediator;
+		};
+		D39B8D5F232B807852709925FD494C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39274A822090AF8725DA75C174D2D7C;
+			remoteInfo = ZCCLogComponent;
+		};
+		D56DA620D986E5651F3B71570CBE62EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13167F2D378D259F74200461BBFE57D5;
+			remoteInfo = ZCCUIComponent;
+		};
+		D587C36BF9743BB69C9EDAF055AE94BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39274A822090AF8725DA75C174D2D7C;
+			remoteInfo = ZCCLogComponent;
+		};
+		DB938E1F32BE0A00E169B57B359F65F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C3CDBD39D90A992552E457E8F82C05;
+			remoteInfo = ZCCContractModule;
+		};
+		DFF8A04FD835CAC183C8F7020B4AB983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39274A822090AF8725DA75C174D2D7C;
+			remoteInfo = ZCCLogComponent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053A33BDCEE6A67A4A8C914A817A46AE /* Pods-MainApp */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-MainApp"; path = "libPods-MainApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CB0914CA9A7936D5C785B15B84D1CA /* ZCCCertificateModule */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ZCCCertificateModule; path = libZCCCertificateModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		073CE6746F6BA3AC5CC0E8062B649CEE /* ZCCProductService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCProductService.h; sourceTree = "<group>"; };
+		075C55DB03026E6DEB21DEFDE55E46D6 /* ZCCAssetStateModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCAssetStateModel.h; sourceTree = "<group>"; };
+		07FB43B42CB3A93E2FB7EEDEFBF4A9F7 /* ZCCBaseAssetModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCBaseAssetModule-prefix.pch"; sourceTree = "<group>"; };
+		085AB0270D4723651CBE31B104DEBD07 /* ZCCBaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCBaseNavigationController.h; sourceTree = "<group>"; };
+		0AE2D8E6F0B3D3B4B313137C00CE53C4 /* ZCCOrderModule */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ZCCOrderModule; path = libZCCOrderModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5D9A8D1A7AF8B2F348C726187F723F /* ZCCBenefitService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCBenefitService.m; sourceTree = "<group>"; };
+		0F4FB9899A327749D423B6DA83A4C38E /* ZCCAssetViewHelper_4.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCAssetViewHelper_4.m; sourceTree = "<group>"; };
+		109885BF86F743A8E1AA7B5FCD05B78E /* ZCCProductListVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCProductListVC.m; sourceTree = "<group>"; };
+		118250ED68E7112CD1EB488E1361D6F6 /* ZCCBannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCBannerView.m; sourceTree = "<group>"; };
+		1302065DC3EADCE3E0763753F8EAAC41 /* ZCCBenefitModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCCBenefitModule-dummy.m"; sourceTree = "<group>"; };
+		13A9AFABB3B3184A1804AECB8C7DA95D /* ZCCServiceModels.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCServiceModels.m; sourceTree = "<group>"; };
+		172950C1C32B005FACA86A6453C77A05 /* ZCCResaleCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCResaleCardView.h; sourceTree = "<group>"; };
+		1CA2FB91FEF859038E4F125BF9C5998E /* ZCCBaseAssetModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZCCBaseAssetModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1CD2EF41C31A03EAAE943794CF779A0C /* ZCCBenefitModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCBenefitModule.h; sourceTree = "<group>"; };
+		1D53C828E3AFF8A13A68373723168FBC /* ZCCWebComponent */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ZCCWebComponent; path = libZCCWebComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E1B597B1694EA1248F5FDC2450BB27F /* ZCCCertificateModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCCCertificateModule-dummy.m"; sourceTree = "<group>"; };
+		1EDF57C9AFAF9DFF2FE41BC6F7A40196 /* ZCCResaleCardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCResaleCardView.m; sourceTree = "<group>"; };
+		1F9A9E8FC4660F851BCF3CC51AA98AF2 /* ZCCBenefitListVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCBenefitListVC.h; sourceTree = "<group>"; };
+		20E0B5E4D3FEC9C51A2F01F7C1C6680A /* ZCCCertificateModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCCertificateModule.debug.xcconfig; sourceTree = "<group>"; };
+		218A07CE4524FF8CE60C6518580C4E93 /* ZCCAssetViewHelper_1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCAssetViewHelper_1.m; sourceTree = "<group>"; };
+		21A9031E9AE59BE2AAAE8198EF0AA15B /* ZCCBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCBaseViewController.h; sourceTree = "<group>"; };
+		233AE46FC2FA66E12505BCA423082754 /* ZCCMediator+Business.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCCMediator+Business.m"; sourceTree = "<group>"; };
+		253DA3F9A43CB0C2CFFDF70584C37204 /* ZCCLogComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZCCLogComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		268A50E79E5FD5D8A452CEE599FC4F83 /* ZCCMediator */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ZCCMediator; path = libZCCMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		27023E63CB98928F72312AB52291C30A /* ZCCContractModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCContractModule.h; sourceTree = "<group>"; };
+		2BF15BB0821AB88B052466696635DEDF /* ZCCOrderModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCOrderModule.debug.xcconfig; sourceTree = "<group>"; };
+		2BFA7E8561E98144B6A8224B969F5382 /* ZCCBenefitModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCBenefitModule.m; sourceTree = "<group>"; };
+		2C226FB14B6F96857F9E92E577D8622F /* ZCCWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCWebViewController.h; sourceTree = "<group>"; };
+		2C8EED6442E95CE45F5808BA0BBEB81F /* ZCCAssetModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCCAssetModule-dummy.m"; sourceTree = "<group>"; };
+		2CC9A0888054D3DC862EEF70D999CAAD /* ZCCBenefitModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCBenefitModule.debug.xcconfig; sourceTree = "<group>"; };
+		2D1C8755A9DCD0F455439411721A2564 /* ZCCOrderModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCOrderModule.h; sourceTree = "<group>"; };
+		32E7D9D413842E1F02B485D0B78E4888 /* UIView+ZCCExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZCCExtension.m"; sourceTree = "<group>"; };
+		3335A543C066A48EE504A6C71317394F /* ZCCContractModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZCCContractModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		34B1265271E25EEE76309DC625115A8D /* ZCCAssetDetailVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCAssetDetailVC.m; sourceTree = "<group>"; };
+		37F8D4883266DAC5DD56291C863F1C6F /* ZCCAssetViewHelper_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCAssetViewHelper_3.m; sourceTree = "<group>"; };
+		38519F8184A7D51788547D9638338C36 /* ZCCAssetListVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCAssetListVC.m; sourceTree = "<group>"; };
+		39541799196776593C90D6725DB0D420 /* ZCCUIComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZCCUIComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3A4E037D0295266E3F978202581C44E4 /* ZCCAssetViewHelper_4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCAssetViewHelper_4.h; sourceTree = "<group>"; };
+		3FC000DFE85E18722880CEFB75FEB62A /* ZCCProductModule */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ZCCProductModule; path = libZCCProductModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD5044BBB17A960750475ACD097F0EE /* ZCCMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCMediator-prefix.pch"; sourceTree = "<group>"; };
+		403671828D9329CC5E51CA05A9139A39 /* ZCCAssetModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZCCAssetModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4608BCF5142BB895A60EE4F752ACB0C0 /* ZCCWebComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCWebComponent.release.xcconfig; sourceTree = "<group>"; };
+		47318D26172D4C7B5CF10133B3336EBE /* ZCCCertificateModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCCertificateModule-prefix.pch"; sourceTree = "<group>"; };
+		482CBE088F40CB04450FBBDCFE95CFB4 /* ZCCBenefitModule */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ZCCBenefitModule; path = libZCCBenefitModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C86733871559BD0FA4A5ECEF8966A35 /* ZCCContractModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCContractModule.release.xcconfig; sourceTree = "<group>"; };
+		4DC6BD001F2E0FBC5F90DF1D189F9E24 /* ZCCCertificateModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZCCCertificateModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5038B90DCC52118B8BDC8DDD1CEC3369 /* ZCCUIComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCUIComponent-prefix.pch"; sourceTree = "<group>"; };
+		52A44A8DD52EA9C91B752EC4A3DC3C4F /* ZCCAssetModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCAssetModule.m; sourceTree = "<group>"; };
+		54289B933687E9D1A0BAE95C7D96A55D /* ZCCOrderModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCOrderModule-prefix.pch"; sourceTree = "<group>"; };
+		555FCE63D9C65A05ABF3731A8A2C2A58 /* ZCCBenefitModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCBenefitModule.release.xcconfig; sourceTree = "<group>"; };
+		56218C4AD209AD89BDB1BE870FD98779 /* ZCCBenefitService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCBenefitService.h; sourceTree = "<group>"; };
+		57C9FE8C989E8C0E1B8F1BF144073EEB /* ZCCServiceProtocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCServiceProtocols.h; sourceTree = "<group>"; };
+		58AB85F2F1D08D5C0B4D7BB1A8467934 /* ZCCAssetService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCAssetService.m; sourceTree = "<group>"; };
+		5981172A3E01251D66CCB27695634D08 /* ZCCModuleDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCModuleDefines.h; sourceTree = "<group>"; };
+		5FF66F06B1FE9BF01880B3C9ADA8F731 /* ZCCContractModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCContractModule.m; sourceTree = "<group>"; };
+		623B6342DF9EB03B9B12E3A1605C075F /* ZCCWebComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZCCWebComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		63355999A1329EE64750B359FA5FDB61 /* ZCCAssetViewHelper_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCAssetViewHelper_3.h; sourceTree = "<group>"; };
+		677C7D6D04D9FC47E9B6D87E0595BCDC /* ZCCLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCCLogFormatter.m; path = Classes/ZCCLogFormatter.m; sourceTree = "<group>"; };
+		68971D37A17FF995C71375AEAF820159 /* ZCCBaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCBaseTableViewCell.h; sourceTree = "<group>"; };
+		6BBCA1F0E55795FFC7E0E2617CEA1E36 /* Pods-MainApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6EFB420505ED92CA337C8F83E49F32A9 /* ZCCBaseAssetModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCCBaseAssetModule-dummy.m"; sourceTree = "<group>"; };
+		6F9AD9F962BC2C85C4B43A1972841884 /* Pods-MainApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MainApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7039A2568A8E3B1A206A863EE899D24E /* ZCCBaseAssetModule */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ZCCBaseAssetModule; path = libZCCBaseAssetModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7114BE6232519D59B5095098850BF4AE /* ZCCAssetDetailVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCAssetDetailVC.h; sourceTree = "<group>"; };
+		7297B5CD1A48B94E143C78C87DD5797A /* ZCCProductDetailVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCProductDetailVC.h; sourceTree = "<group>"; };
+		741817373449575074E72DB36C3BC303 /* ZCCLogComponent */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ZCCLogComponent; path = libZCCLogComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7866558E9C9AF25140FF14CDBF8EAE32 /* ZCCProductModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCProductModule.debug.xcconfig; sourceTree = "<group>"; };
+		7AFA410D3D45858A461A8A767BFD9C92 /* ZCCProductModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCCProductModule-dummy.m"; sourceTree = "<group>"; };
+		7F9527549A0FEB6D7D168535E2DD8CA7 /* ZCCContractService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCContractService.h; sourceTree = "<group>"; };
+		81726993A28C0E6C4C0D014EB8DA976B /* ZCCAssetViewHelper_5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCAssetViewHelper_5.h; sourceTree = "<group>"; };
+		8298CCB9D84411DBE14E81B44D620D2C /* ZCCProductDetailVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCProductDetailVC.m; sourceTree = "<group>"; };
+		847DA76DE7DAA5905E2E1E03AB9F4EC1 /* ZCCLogComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCLogComponent.debug.xcconfig; sourceTree = "<group>"; };
+		84CC08DD3D09190F3A60BE21AE7730AB /* ZCCLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCCLogger.h; path = Classes/ZCCLogger.h; sourceTree = "<group>"; };
+		855921A7AEA281EB65758A122B89014F /* ZCCAssetListVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCAssetListVC.h; sourceTree = "<group>"; };
+		87A10B29FF46392F9E98F80F4ABA0D9D /* ZCCCertificateModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCCertificateModule.release.xcconfig; sourceTree = "<group>"; };
+		88E96BB7B331D5CE1FD97F8F50EF17E2 /* ZCCContractModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCContractModule-prefix.pch"; sourceTree = "<group>"; };
+		8B4404A3A9EA6C8D402A511D8A426F34 /* ZCCProductListVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCProductListVC.h; sourceTree = "<group>"; };
+		8C2C602C0301B0CDB1792BAFEE5ADFB8 /* ZCCMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCCMediator-dummy.m"; sourceTree = "<group>"; };
+		8FA02B0AB99517E7FF29FE6B8D05F89B /* ZCCBenefitDetailVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCBenefitDetailVC.m; sourceTree = "<group>"; };
+		8FCB4E96859905773DCF03A4922BF6F0 /* ZCCBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCBaseNavigationController.m; sourceTree = "<group>"; };
+		90113305E56F72183F5DD129327729C2 /* ZCCAssetActionCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCAssetActionCard.m; sourceTree = "<group>"; };
+		9227644589827A8BE2A37EA06C40E913 /* ZCCAssetModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCAssetModule-prefix.pch"; sourceTree = "<group>"; };
+		943F04A5CF9532ECB4B55E95CCFB8ED5 /* ZCCJSBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCJSBridge.m; sourceTree = "<group>"; };
+		956327E34C0931409707E9B18A3FCB1B /* ZCCProductModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCProductModule.m; sourceTree = "<group>"; };
+		959054BFF9DA3B5C29F7755F6533ABAF /* ZCCLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCCLogFormatter.h; path = Classes/ZCCLogFormatter.h; sourceTree = "<group>"; };
+		96A61FCBBD41941C3BB2F7FBEABF7DB6 /* ZCCAssetViewHelper_5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCAssetViewHelper_5.m; sourceTree = "<group>"; };
+		9978EDADC35C512F418F676BF9073F91 /* ZCCMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCMediator.h; sourceTree = "<group>"; };
+		99B4330B05C9F1650263FF52721AA61E /* ZCCBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCBannerView.h; sourceTree = "<group>"; };
+		9A15409876F7BBD3DF589FD18BBBD691 /* ZCCAssetViewHelper_2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCAssetViewHelper_2.m; sourceTree = "<group>"; };
+		9C2D616734843D361BAAA02675385C69 /* ZCCBenefitModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZCCBenefitModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C2D7C93F2ED6F0BC99F4D0DA7900D3C /* ZCCProductService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCProductService.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8DDC3FB607C568D4B3B523E476CAF0 /* ZCCOrderModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCOrderModule.release.xcconfig; sourceTree = "<group>"; };
+		A1F488859B767A1BDAB8425D1F759C1F /* ZCCMediator+Business.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCMediator+Business.h"; sourceTree = "<group>"; };
+		A354E98F4C2B56062B8D949C61A066D3 /* Pods-MainApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MainApp-dummy.m"; sourceTree = "<group>"; };
+		A416F04579A6C7152FEE2533712B4DE6 /* ZCCContractService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCContractService.m; sourceTree = "<group>"; };
+		A7F647A13C98DB16144E9273A0D8A836 /* ZCCAssetActionCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCAssetActionCard.h; sourceTree = "<group>"; };
+		A8A71878DB2AD726B1D946D6A6695E33 /* ZCCAssetModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCAssetModule.debug.xcconfig; sourceTree = "<group>"; };
+		A93161121B08D05F8A10BA01DCA76973 /* Pods-MainApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainApp.release.xcconfig"; sourceTree = "<group>"; };
+		A9DA8DFFDAA9D543EB939D53B7E19BC9 /* ZCCUIComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCUIComponent.release.xcconfig; sourceTree = "<group>"; };
+		A9F1E5AD22327DE89A6554AF303E409B /* ZCCOrderModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCOrderModule.m; sourceTree = "<group>"; };
+		AA0210FD476F477082D58C019FA20CAD /* ZCCCertificateModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCCertificateModule.h; sourceTree = "<group>"; };
+		ACDA1A3490FA67F09E1508AE9AE0E3D9 /* ZCCBenefitModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCBenefitModule-prefix.pch"; sourceTree = "<group>"; };
+		B2EB6AAA67ABB6E0E81F7727CD4F6101 /* ZCCWebComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCWebComponent.debug.xcconfig; sourceTree = "<group>"; };
+		B49CE3A3936ACE9F5CD3BE562021177E /* ZCCAssetService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCAssetService.h; sourceTree = "<group>"; };
+		B5EA30E070009682CFA891F3F35F358E /* ZCCModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCModuleProtocol.h; sourceTree = "<group>"; };
+		B88213F8606BCB0F061F09244B193AAF /* ZCCContractModule */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ZCCContractModule; path = libZCCContractModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFB0640F10777A3701B24EFE5FC507B /* ZCCMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCMediator.release.xcconfig; sourceTree = "<group>"; };
+		BB27702FB534E4F28C23D93353D6FAD1 /* ZCCProductModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCProductModule.release.xcconfig; sourceTree = "<group>"; };
+		BE188B50AEBE89355BB04BDD671DDF98 /* ZCCBaseTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCBaseTableViewCell.m; sourceTree = "<group>"; };
+		BF06CE6ED57585F6E1648B107A031BC4 /* ZCCMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCMediator.m; sourceTree = "<group>"; };
+		C04C7B70CB4E57E58FB64791BE2EBEC8 /* ZCCProductDetailCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCProductDetailCard.h; sourceTree = "<group>"; };
+		C42D23182946DB8CA9BD9656137A5DCB /* ZCCUIComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCUIComponent.debug.xcconfig; sourceTree = "<group>"; };
+		C55E30B8C78B572E8013E4F4EADE2D83 /* ZCCCertificateModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCCertificateModule.m; sourceTree = "<group>"; };
+		C5D562954DF5D6C44FEECFF63DB86278 /* ZCCLogComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCLogComponent.release.xcconfig; sourceTree = "<group>"; };
+		D06768F687A34F9A6F7EFF1347F1FF86 /* ZCCAssetModule */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ZCCAssetModule; path = libZCCAssetModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2459C58E88E99DF3166ED875490B890 /* ZCCProductTraceCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCProductTraceCard.h; sourceTree = "<group>"; };
+		D29FC4D9218224AB1D6D15D3EC610CB3 /* ZCCAssetViewHelper_2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCAssetViewHelper_2.h; sourceTree = "<group>"; };
+		D2E4AF2E136DFC3D28F57D037F40F6E0 /* ZCCBenefitDetailVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCBenefitDetailVC.h; sourceTree = "<group>"; };
+		D4187F6324280FAE69D0F433190D8C48 /* ZCCLogComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCCLogComponent-dummy.m"; sourceTree = "<group>"; };
+		D44E0D85E69BF917A912C8F7B8366031 /* ZCCWebComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCCWebComponent-dummy.m"; sourceTree = "<group>"; };
+		D4BB48BC103B3E6B768B9A0E79E3D625 /* ZCCBaseAssetModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCBaseAssetModule.debug.xcconfig; sourceTree = "<group>"; };
+		D519A08BA6BAC004A8140F810FB9A602 /* ZCCWebComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCWebComponent-prefix.pch"; sourceTree = "<group>"; };
+		D7F34104597F721A82FE4275ACFC3A1E /* ZCCUIComponent */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ZCCUIComponent; path = libZCCUIComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D829D9BBA044F0A69F777879555417DF /* ZCCProductTraceCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCProductTraceCard.m; sourceTree = "<group>"; };
+		D8BA8F9E3703C6F7A1A77C203DF988CC /* ZCCOrderModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZCCOrderModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D8CDE0C3937FBF21812E35C978F0D797 /* ZCCProductModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCProductModule.h; sourceTree = "<group>"; };
+		D9EE4E9A1140B5299FC260E7385F490D /* ZCCProductModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCProductModule-prefix.pch"; sourceTree = "<group>"; };
+		DBD525950BD4FFE3F787B2FBCEB2DEFE /* ZCCContractModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCContractModule.debug.xcconfig; sourceTree = "<group>"; };
+		DC09B624A79AF0116056E28828D1821D /* ZCCMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCMediator.debug.xcconfig; sourceTree = "<group>"; };
+		DC9864EB8D36FE26ACEECF74D1D57996 /* ZCCOrderService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCOrderService.h; sourceTree = "<group>"; };
+		DD27B96B65E7F733512C63BC8483A6A5 /* ZCCLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCCLogger.m; path = Classes/ZCCLogger.m; sourceTree = "<group>"; };
+		DF77E5912406107D4FA65A7421998A66 /* ZCCUIComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCCUIComponent-dummy.m"; sourceTree = "<group>"; };
+		E0351F68DF78E7A5C92A2D364F9D4697 /* ZCCProductDetailCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCProductDetailCard.m; sourceTree = "<group>"; };
+		E26C646C58DBA75B7CE53761650C11BB /* ZCCAssetModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCAssetModule.release.xcconfig; sourceTree = "<group>"; };
+		E350838F73D1233BA1EF6C21B31E031C /* ZCCLogComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCCLogComponent-prefix.pch"; sourceTree = "<group>"; };
+		E3529C8DC557A97BC6B0337D748FA755 /* ZCCBenefitListVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCBenefitListVC.m; sourceTree = "<group>"; };
+		E495A79CC4A305E38696B2F815EE44FD /* ZCCBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCBaseViewController.m; sourceTree = "<group>"; };
+		E6E64FFF4996AA4299E476E0A5B762EF /* Pods-MainApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		E780EB085A7CF321B584E67DB33A4041 /* ZCCBaseAssetModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCCBaseAssetModule.release.xcconfig; sourceTree = "<group>"; };
+		E875AC6C6E7A8E7FACA9637472266B6E /* UIView+ZCCExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ZCCExtension.h"; sourceTree = "<group>"; };
+		E89EBBD781415301F3E3EF893124A884 /* ZCCJSBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCJSBridge.h; sourceTree = "<group>"; };
+		EA85BD7563A99ABAB0AD69DAFF7724A9 /* ZCCMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZCCMediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EFB22B8CD2C2223830799E2FF81EEC2C /* ZCCCertificateService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCCertificateService.m; sourceTree = "<group>"; };
+		F0232045BA6C684B3CDC17D05771DAEA /* ZCCContractModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCCContractModule-dummy.m"; sourceTree = "<group>"; };
+		F19071DCFED5F30CEE47A343EEBBF7F0 /* ZCCOrderModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCCOrderModule-dummy.m"; sourceTree = "<group>"; };
+		F286C0D2F359872D03DC3025302EAA06 /* ZCCAssetStateModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCAssetStateModel.m; sourceTree = "<group>"; };
+		F2DBFD0CC3FCC65837D4425CDDCC2E59 /* ZCCWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCWebViewController.m; sourceTree = "<group>"; };
+		F35626A4D2E2C123E9DBD6E548B8A8F3 /* ZCCAssetModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCAssetModule.h; sourceTree = "<group>"; };
+		F372C0A1BC76F922C9BA82C46E4C43AC /* ZCCProductModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZCCProductModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F4647A117525DC62E9018AA8EF3D87C8 /* ZCCAssetViewHelper_1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCAssetViewHelper_1.h; sourceTree = "<group>"; };
+		F935499CE773F6D65279909AFD909762 /* ZCCOrderService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCCOrderService.m; sourceTree = "<group>"; };
+		FD5B7B69A98F87AF0BE986741C4FFD28 /* ZCCCertificateService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCCCertificateService.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0595F7E4684040C3D23B0943C89541DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FDBA62D8F54A111693EA182F2EA44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1266C78C2A0A728A8D13520E805C9199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2910DAE71E95E2F69EE5F166B5B587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2231302CBCED14F00D5E00C67F2712F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C64A20EC0B4FE1F7C22BE883CB5ACAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7869587ED706212023217EC13DEC6C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4685EF12E72082E64F4984383898909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C823994E4F7C90F8BFA82D9E840EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F56171FA7B0B660404341081770632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAC82A0DB793391C09A7852B7B57630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09CFB1F303E43D1F0D5393461C2BE80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0737D1A45901185D73CB5FA6E6885973 /* ZCCProductModule */ = {
+			isa = PBXGroup;
+			children = (
+				598FBC13205D45EC3D56F2B678AF1831 /* Module */,
+				A1F3FE5E0FFFCAE7E0376B278582106B /* Pod */,
+				A2C4038BEB92A2E8FE4799A9D561483D /* Service */,
+				735A586E2831D7D21C727DD946AF0DF0 /* Support Files */,
+				541AC11054533C4946BC3BD05CC4011C /* VC */,
+				B463E903BED29313403BDA2B29A8BBE6 /* View */,
+			);
+			name = ZCCProductModule;
+			path = ../Business/ZCCProductModule;
+			sourceTree = "<group>";
+		};
+		0A0314115717FC0741CA40DB3D3B632F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F19071DCFED5F30CEE47A343EEBBF7F0 /* ZCCOrderModule-dummy.m */,
+				54289B933687E9D1A0BAE95C7D96A55D /* ZCCOrderModule-prefix.pch */,
+				2BF15BB0821AB88B052466696635DEDF /* ZCCOrderModule.debug.xcconfig */,
+				9F8DDC3FB607C568D4B3B523E476CAF0 /* ZCCOrderModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ZCCOrderModule";
+			sourceTree = "<group>";
+		};
+		0ECDF8F04586DDEB35A5046928E614F4 /* ZCCOrderModule */ = {
+			isa = PBXGroup;
+			children = (
+				5FA7DB20A85637D5B55372B9558BC2ED /* Module */,
+				3AA6BC28DFD9B67CD5132829A03781B7 /* Pod */,
+				9DDFF49A0C5A46898EE1E740CE4A69B4 /* Service */,
+				0A0314115717FC0741CA40DB3D3B632F /* Support Files */,
+			);
+			name = ZCCOrderModule;
+			path = ../Business/ZCCOrderModule;
+			sourceTree = "<group>";
+		};
+		13EC592DC2C2209D29F48F27817320AF /* ZCCAssetModule */ = {
+			isa = PBXGroup;
+			children = (
+				850A75497ADE872C89D83D77968779F3 /* Helper */,
+				908ED57D8A686D80029F9BB3BADFD3B1 /* Module */,
+				55F7A2EF43C409A6655CECBE5AA9DF0C /* Pod */,
+				463F5ACC23B15C6BABA2C3DF2E1918F2 /* Support Files */,
+				7CD8F0526DE07BA89F6952EAB639CE8A /* VC */,
+			);
+			name = ZCCAssetModule;
+			path = ../Business/ZCCAssetModule;
+			sourceTree = "<group>";
+		};
+		152A812836D3F7747D29B40EF14E71E0 /* ZCCWebComponent */ = {
+			isa = PBXGroup;
+			children = (
+				FDF6F4361EDA5E67111651E6291EB183 /* Bridge */,
+				27D0326E92375EF6E70D2C36920B6808 /* Pod */,
+				FB2DBD3BF4DDA077D4E51E5ED2FD156F /* Support Files */,
+				CF36292F9F2D17426E6C7C12C67E8266 /* VC */,
+			);
+			name = ZCCWebComponent;
+			path = ../Foundation/ZCCWebComponent;
+			sourceTree = "<group>";
+		};
+		179B8CC9D95E191DFFF0976471E2B183 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				1CD2EF41C31A03EAAE943794CF779A0C /* ZCCBenefitModule.h */,
+				2BFA7E8561E98144B6A8224B969F5382 /* ZCCBenefitModule.m */,
+			);
+			name = Module;
+			path = Classes/Module;
+			sourceTree = "<group>";
+		};
+		19897E9498382B2B0A1D144A64D319CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E1B597B1694EA1248F5FDC2450BB27F /* ZCCCertificateModule-dummy.m */,
+				47318D26172D4C7B5CF10133B3336EBE /* ZCCCertificateModule-prefix.pch */,
+				20E0B5E4D3FEC9C51A2F01F7C1C6680A /* ZCCCertificateModule.debug.xcconfig */,
+				87A10B29FF46392F9E98F80F4ABA0D9D /* ZCCCertificateModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ZCCCertificateModule";
+			sourceTree = "<group>";
+		};
+		19919E844BB4775CB9DC69E49F5C0465 /* ZCCContractModule */ = {
+			isa = PBXGroup;
+			children = (
+				9C7200372C4F4B54A696B7BE5D9EF531 /* Module */,
+				495EA20AC81FC198D6E2BD489AACDC91 /* Pod */,
+				9574BFF1954A6E10BE55FFEA8B933BC6 /* Service */,
+				B75E8975E2222B1B6261EFFBBA3CBFE9 /* Support Files */,
+			);
+			name = ZCCContractModule;
+			path = ../Business/ZCCContractModule;
+			sourceTree = "<group>";
+		};
+		1A5B0F6039F9B57D1A760E07A0B8F3AD /* ZCCBaseAssetModule */ = {
+			isa = PBXGroup;
+			children = (
+				4107EEB51594DF65741A26FB6311363A /* Model */,
+				FCEA4F0E39E7486CD512901B61B5E8D6 /* Pod */,
+				586A1602751C51A700DD32809C4BC7BD /* Service */,
+				DEA96839CB3D2A7B896E995DF6FD8981 /* Support Files */,
+				8EBDE300F6AE4E3600ABCDDF5F827F9B /* View */,
+			);
+			name = ZCCBaseAssetModule;
+			path = ../Business/ZCCBaseAssetModule;
+			sourceTree = "<group>";
+		};
+		1AEA06A36172892DA02D00D888EACC6F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				085AB0270D4723651CBE31B104DEBD07 /* ZCCBaseNavigationController.h */,
+				8FCB4E96859905773DCF03A4922BF6F0 /* ZCCBaseNavigationController.m */,
+				68971D37A17FF995C71375AEAF820159 /* ZCCBaseTableViewCell.h */,
+				BE188B50AEBE89355BB04BDD671DDF98 /* ZCCBaseTableViewCell.m */,
+				21A9031E9AE59BE2AAAE8198EF0AA15B /* ZCCBaseViewController.h */,
+				E495A79CC4A305E38696B2F815EE44FD /* ZCCBaseViewController.m */,
+			);
+			name = Base;
+			path = Classes/Base;
+			sourceTree = "<group>";
+		};
+		24C06B52D0D7249E4DA5A95102593198 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99B4330B05C9F1650263FF52721AA61E /* ZCCBannerView.h */,
+				118250ED68E7112CD1EB488E1361D6F6 /* ZCCBannerView.m */,
+			);
+			name = View;
+			path = Classes/View;
+			sourceTree = "<group>";
+		};
+		27D0326E92375EF6E70D2C36920B6808 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				623B6342DF9EB03B9B12E3A1605C075F /* ZCCWebComponent.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		30FAC8D2299FEFFC482B951A54366EC4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				253DA3F9A43CB0C2CFFDF70584C37204 /* ZCCLogComponent.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		36FEACC4142B3C90FEF9202916A515D1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9978EDADC35C512F418F676BF9073F91 /* ZCCMediator.h */,
+				BF06CE6ED57585F6E1648B107A031BC4 /* ZCCMediator.m */,
+				A1F488859B767A1BDAB8425D1F759C1F /* ZCCMediator+Business.h */,
+				233AE46FC2FA66E12505BCA423082754 /* ZCCMediator+Business.m */,
+			);
+			name = Core;
+			path = Classes/Core;
+			sourceTree = "<group>";
+		};
+		3AA6BC28DFD9B67CD5132829A03781B7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D8BA8F9E3703C6F7A1A77C203DF988CC /* ZCCOrderModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3E06E21C93D6486A566538B1D743A797 /* ZCCCertificateModule */ = {
+			isa = PBXGroup;
+			children = (
+				6D96BD4AF215EFD15BCB627D1A6F7EDE /* Module */,
+				FEF0348F2F240D159594EE76C2A71995 /* Pod */,
+				AADC859647B00D299DC9E524D6121733 /* Service */,
+				19897E9498382B2B0A1D144A64D319CC /* Support Files */,
+			);
+			name = ZCCCertificateModule;
+			path = ../Business/ZCCCertificateModule;
+			sourceTree = "<group>";
+		};
+		4107EEB51594DF65741A26FB6311363A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				075C55DB03026E6DEB21DEFDE55E46D6 /* ZCCAssetStateModel.h */,
+				F286C0D2F359872D03DC3025302EAA06 /* ZCCAssetStateModel.m */,
+			);
+			name = Model;
+			path = Classes/Model;
+			sourceTree = "<group>";
+		};
+		434F425570E4BFF0FEEFEA626CCDC7D7 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				5981172A3E01251D66CCB27695634D08 /* ZCCModuleDefines.h */,
+			);
+			name = Define;
+			path = Classes/Define;
+			sourceTree = "<group>";
+		};
+		4543C2D2A796C228DA246D901968010F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EA85BD7563A99ABAB0AD69DAFF7724A9 /* ZCCMediator.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		463F5ACC23B15C6BABA2C3DF2E1918F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C8EED6442E95CE45F5808BA0BBEB81F /* ZCCAssetModule-dummy.m */,
+				9227644589827A8BE2A37EA06C40E913 /* ZCCAssetModule-prefix.pch */,
+				A8A71878DB2AD726B1D946D6A6695E33 /* ZCCAssetModule.debug.xcconfig */,
+				E26C646C58DBA75B7CE53761650C11BB /* ZCCAssetModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ZCCAssetModule";
+			sourceTree = "<group>";
+		};
+		495EA20AC81FC198D6E2BD489AACDC91 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3335A543C066A48EE504A6C71317394F /* ZCCContractModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		506AF41984ED633D14CC71D169907F96 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B5EA30E070009682CFA891F3F35F358E /* ZCCModuleProtocol.h */,
+				57C9FE8C989E8C0E1B8F1BF144073EEB /* ZCCServiceProtocols.h */,
+			);
+			name = Protocol;
+			path = Classes/Protocol;
+			sourceTree = "<group>";
+		};
+		541AC11054533C4946BC3BD05CC4011C /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7297B5CD1A48B94E143C78C87DD5797A /* ZCCProductDetailVC.h */,
+				8298CCB9D84411DBE14E81B44D620D2C /* ZCCProductDetailVC.m */,
+				8B4404A3A9EA6C8D402A511D8A426F34 /* ZCCProductListVC.h */,
+				109885BF86F743A8E1AA7B5FCD05B78E /* ZCCProductListVC.m */,
+			);
+			name = VC;
+			path = Classes/VC;
+			sourceTree = "<group>";
+		};
+		55F6C664A6E6882363A26EB53FC9724B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF77E5912406107D4FA65A7421998A66 /* ZCCUIComponent-dummy.m */,
+				5038B90DCC52118B8BDC8DDD1CEC3369 /* ZCCUIComponent-prefix.pch */,
+				C42D23182946DB8CA9BD9656137A5DCB /* ZCCUIComponent.debug.xcconfig */,
+				A9DA8DFFDAA9D543EB939D53B7E19BC9 /* ZCCUIComponent.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ZCCUIComponent";
+			sourceTree = "<group>";
+		};
+		55F7A2EF43C409A6655CECBE5AA9DF0C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				403671828D9329CC5E51CA05A9139A39 /* ZCCAssetModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		586A1602751C51A700DD32809C4BC7BD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B49CE3A3936ACE9F5CD3BE562021177E /* ZCCAssetService.h */,
+				58AB85F2F1D08D5C0B4D7BB1A8467934 /* ZCCAssetService.m */,
+			);
+			name = Service;
+			path = Classes/Service;
+			sourceTree = "<group>";
+		};
+		598FBC13205D45EC3D56F2B678AF1831 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				D8CDE0C3937FBF21812E35C978F0D797 /* ZCCProductModule.h */,
+				956327E34C0931409707E9B18A3FCB1B /* ZCCProductModule.m */,
+			);
+			name = Module;
+			path = Classes/Module;
+			sourceTree = "<group>";
+		};
+		5A84C73C4EC15AE819EB641083A80B34 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5379C1510F240EEB14A857D96FDEE59 /* Pods-MainApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5FA7DB20A85637D5B55372B9558BC2ED /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				2D1C8755A9DCD0F455439411721A2564 /* ZCCOrderModule.h */,
+				A9F1E5AD22327DE89A6554AF303E409B /* ZCCOrderModule.m */,
+			);
+			name = Module;
+			path = Classes/Module;
+			sourceTree = "<group>";
+		};
+		615B0A27645C3B4CCE62BA39EA6ADCE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				053A33BDCEE6A67A4A8C914A817A46AE /* Pods-MainApp */,
+				D06768F687A34F9A6F7EFF1347F1FF86 /* ZCCAssetModule */,
+				7039A2568A8E3B1A206A863EE899D24E /* ZCCBaseAssetModule */,
+				482CBE088F40CB04450FBBDCFE95CFB4 /* ZCCBenefitModule */,
+				05CB0914CA9A7936D5C785B15B84D1CA /* ZCCCertificateModule */,
+				B88213F8606BCB0F061F09244B193AAF /* ZCCContractModule */,
+				741817373449575074E72DB36C3BC303 /* ZCCLogComponent */,
+				268A50E79E5FD5D8A452CEE599FC4F83 /* ZCCMediator */,
+				0AE2D8E6F0B3D3B4B313137C00CE53C4 /* ZCCOrderModule */,
+				3FC000DFE85E18722880CEFB75FEB62A /* ZCCProductModule */,
+				D7F34104597F721A82FE4275ACFC3A1E /* ZCCUIComponent */,
+				1D53C828E3AFF8A13A68373723168FBC /* ZCCWebComponent */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D96BD4AF215EFD15BCB627D1A6F7EDE /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				AA0210FD476F477082D58C019FA20CAD /* ZCCCertificateModule.h */,
+				C55E30B8C78B572E8013E4F4EADE2D83 /* ZCCCertificateModule.m */,
+			);
+			name = Module;
+			path = Classes/Module;
+			sourceTree = "<group>";
+		};
+		735A586E2831D7D21C727DD946AF0DF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AFA410D3D45858A461A8A767BFD9C92 /* ZCCProductModule-dummy.m */,
+				D9EE4E9A1140B5299FC260E7385F490D /* ZCCProductModule-prefix.pch */,
+				7866558E9C9AF25140FF14CDBF8EAE32 /* ZCCProductModule.debug.xcconfig */,
+				BB27702FB534E4F28C23D93353D6FAD1 /* ZCCProductModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ZCCProductModule";
+			sourceTree = "<group>";
+		};
+		7503554B6E35ED1AC526F77126EA0931 /* ZCCUIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				1AEA06A36172892DA02D00D888EACC6F /* Base */,
+				999BD360F8D2DE2B153C589F3CDDA074 /* Category */,
+				DD1265E4E886B6F3A44FA87DF2028083 /* Pod */,
+				55F6C664A6E6882363A26EB53FC9724B /* Support Files */,
+				24C06B52D0D7249E4DA5A95102593198 /* View */,
+			);
+			name = ZCCUIComponent;
+			path = ../Foundation/ZCCUIComponent;
+			sourceTree = "<group>";
+		};
+		7CD8F0526DE07BA89F6952EAB639CE8A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				7114BE6232519D59B5095098850BF4AE /* ZCCAssetDetailVC.h */,
+				34B1265271E25EEE76309DC625115A8D /* ZCCAssetDetailVC.m */,
+				855921A7AEA281EB65758A122B89014F /* ZCCAssetListVC.h */,
+				38519F8184A7D51788547D9638338C36 /* ZCCAssetListVC.m */,
+			);
+			name = VC;
+			path = Classes/VC;
+			sourceTree = "<group>";
+		};
+		83D489BF28E79BBA4C572B596B9F191C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9C2D616734843D361BAAA02675385C69 /* ZCCBenefitModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		850A75497ADE872C89D83D77968779F3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F4647A117525DC62E9018AA8EF3D87C8 /* ZCCAssetViewHelper_1.h */,
+				218A07CE4524FF8CE60C6518580C4E93 /* ZCCAssetViewHelper_1.m */,
+				D29FC4D9218224AB1D6D15D3EC610CB3 /* ZCCAssetViewHelper_2.h */,
+				9A15409876F7BBD3DF589FD18BBBD691 /* ZCCAssetViewHelper_2.m */,
+				63355999A1329EE64750B359FA5FDB61 /* ZCCAssetViewHelper_3.h */,
+				37F8D4883266DAC5DD56291C863F1C6F /* ZCCAssetViewHelper_3.m */,
+				3A4E037D0295266E3F978202581C44E4 /* ZCCAssetViewHelper_4.h */,
+				0F4FB9899A327749D423B6DA83A4C38E /* ZCCAssetViewHelper_4.m */,
+				81726993A28C0E6C4C0D014EB8DA976B /* ZCCAssetViewHelper_5.h */,
+				96A61FCBBD41941C3BB2F7FBEABF7DB6 /* ZCCAssetViewHelper_5.m */,
+			);
+			name = Helper;
+			path = Classes/Helper;
+			sourceTree = "<group>";
+		};
+		8EBDE300F6AE4E3600ABCDDF5F827F9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7F647A13C98DB16144E9273A0D8A836 /* ZCCAssetActionCard.h */,
+				90113305E56F72183F5DD129327729C2 /* ZCCAssetActionCard.m */,
+				172950C1C32B005FACA86A6453C77A05 /* ZCCResaleCardView.h */,
+				1EDF57C9AFAF9DFF2FE41BC6F7A40196 /* ZCCResaleCardView.m */,
+			);
+			name = View;
+			path = Classes/View;
+			sourceTree = "<group>";
+		};
+		908ED57D8A686D80029F9BB3BADFD3B1 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				F35626A4D2E2C123E9DBD6E548B8A8F3 /* ZCCAssetModule.h */,
+				52A44A8DD52EA9C91B752EC4A3DC3C4F /* ZCCAssetModule.m */,
+			);
+			name = Module;
+			path = Classes/Module;
+			sourceTree = "<group>";
+		};
+		9574BFF1954A6E10BE55FFEA8B933BC6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7F9527549A0FEB6D7D168535E2DD8CA7 /* ZCCContractService.h */,
+				A416F04579A6C7152FEE2533712B4DE6 /* ZCCContractService.m */,
+			);
+			name = Service;
+			path = Classes/Service;
+			sourceTree = "<group>";
+		};
+		999BD360F8D2DE2B153C589F3CDDA074 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E875AC6C6E7A8E7FACA9637472266B6E /* UIView+ZCCExtension.h */,
+				32E7D9D413842E1F02B485D0B78E4888 /* UIView+ZCCExtension.m */,
+			);
+			name = Category;
+			path = Classes/Category;
+			sourceTree = "<group>";
+		};
+		9C7200372C4F4B54A696B7BE5D9EF531 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				27023E63CB98928F72312AB52291C30A /* ZCCContractModule.h */,
+				5FF66F06B1FE9BF01880B3C9ADA8F731 /* ZCCContractModule.m */,
+			);
+			name = Module;
+			path = Classes/Module;
+			sourceTree = "<group>";
+		};
+		9D47C8927F142B506410D5A091408CC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13A9AFABB3B3184A1804AECB8C7DA95D /* ZCCServiceModels.m */,
+			);
+			name = Model;
+			path = Classes/Model;
+			sourceTree = "<group>";
+		};
+		9DDFF49A0C5A46898EE1E740CE4A69B4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DC9864EB8D36FE26ACEECF74D1D57996 /* ZCCOrderService.h */,
+				F935499CE773F6D65279909AFD909762 /* ZCCOrderService.m */,
+			);
+			name = Service;
+			path = Classes/Service;
+			sourceTree = "<group>";
+		};
+		A1F3FE5E0FFFCAE7E0376B278582106B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F372C0A1BC76F922C9BA82C46E4C43AC /* ZCCProductModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A2C4038BEB92A2E8FE4799A9D561483D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				073CE6746F6BA3AC5CC0E8062B649CEE /* ZCCProductService.h */,
+				9C2D7C93F2ED6F0BC99F4D0DA7900D3C /* ZCCProductService.m */,
+			);
+			name = Service;
+			path = Classes/Service;
+			sourceTree = "<group>";
+		};
+		A7BD991C7663E77E0FBA8CBE7734DB58 /* ZCCLogComponent */ = {
+			isa = PBXGroup;
+			children = (
+				959054BFF9DA3B5C29F7755F6533ABAF /* ZCCLogFormatter.h */,
+				677C7D6D04D9FC47E9B6D87E0595BCDC /* ZCCLogFormatter.m */,
+				84CC08DD3D09190F3A60BE21AE7730AB /* ZCCLogger.h */,
+				DD27B96B65E7F733512C63BC8483A6A5 /* ZCCLogger.m */,
+				30FAC8D2299FEFFC482B951A54366EC4 /* Pod */,
+				FF19DDB93C6FE2C58CC80E0E6F0D55E5 /* Support Files */,
+			);
+			name = ZCCLogComponent;
+			path = ../Foundation/ZCCLogComponent;
+			sourceTree = "<group>";
+		};
+		AADC859647B00D299DC9E524D6121733 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FD5B7B69A98F87AF0BE986741C4FFD28 /* ZCCCertificateService.h */,
+				EFB22B8CD2C2223830799E2FF81EEC2C /* ZCCCertificateService.m */,
+			);
+			name = Service;
+			path = Classes/Service;
+			sourceTree = "<group>";
+		};
+		ACDB948E460E15CE6B35D84FE29E4756 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				56218C4AD209AD89BDB1BE870FD98779 /* ZCCBenefitService.h */,
+				0B5D9A8D1A7AF8B2F348C726187F723F /* ZCCBenefitService.m */,
+			);
+			name = Service;
+			path = Classes/Service;
+			sourceTree = "<group>";
+		};
+		B463E903BED29313403BDA2B29A8BBE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C04C7B70CB4E57E58FB64791BE2EBEC8 /* ZCCProductDetailCard.h */,
+				E0351F68DF78E7A5C92A2D364F9D4697 /* ZCCProductDetailCard.m */,
+				D2459C58E88E99DF3166ED875490B890 /* ZCCProductTraceCard.h */,
+				D829D9BBA044F0A69F777879555417DF /* ZCCProductTraceCard.m */,
+			);
+			name = View;
+			path = Classes/View;
+			sourceTree = "<group>";
+		};
+		B75E8975E2222B1B6261EFFBBA3CBFE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0232045BA6C684B3CDC17D05771DAEA /* ZCCContractModule-dummy.m */,
+				88E96BB7B331D5CE1FD97F8F50EF17E2 /* ZCCContractModule-prefix.pch */,
+				DBD525950BD4FFE3F787B2FBCEB2DEFE /* ZCCContractModule.debug.xcconfig */,
+				4C86733871559BD0FA4A5ECEF8966A35 /* ZCCContractModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ZCCContractModule";
+			sourceTree = "<group>";
+		};
+		C708E1BF4E629296EFF637A61E1993B0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13EC592DC2C2209D29F48F27817320AF /* ZCCAssetModule */,
+				1A5B0F6039F9B57D1A760E07A0B8F3AD /* ZCCBaseAssetModule */,
+				FA973DFF8A8CCE874DB17799E5FB3940 /* ZCCBenefitModule */,
+				3E06E21C93D6486A566538B1D743A797 /* ZCCCertificateModule */,
+				19919E844BB4775CB9DC69E49F5C0465 /* ZCCContractModule */,
+				A7BD991C7663E77E0FBA8CBE7734DB58 /* ZCCLogComponent */,
+				DB3B3D1DF774E79362692F2BE1F49E3D /* ZCCMediator */,
+				0ECDF8F04586DDEB35A5046928E614F4 /* ZCCOrderModule */,
+				0737D1A45901185D73CB5FA6E6885973 /* ZCCProductModule */,
+				7503554B6E35ED1AC526F77126EA0931 /* ZCCUIComponent */,
+				152A812836D3F7747D29B40EF14E71E0 /* ZCCWebComponent */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C708E1BF4E629296EFF637A61E1993B0 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				615B0A27645C3B4CCE62BA39EA6ADCE3 /* Products */,
+				5A84C73C4EC15AE819EB641083A80B34 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF36292F9F2D17426E6C7C12C67E8266 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				2C226FB14B6F96857F9E92E577D8622F /* ZCCWebViewController.h */,
+				F2DBFD0CC3FCC65837D4425CDDCC2E59 /* ZCCWebViewController.m */,
+			);
+			name = VC;
+			path = Classes/VC;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB3B3D1DF774E79362692F2BE1F49E3D /* ZCCMediator */ = {
+			isa = PBXGroup;
+			children = (
+				36FEACC4142B3C90FEF9202916A515D1 /* Core */,
+				434F425570E4BFF0FEEFEA626CCDC7D7 /* Define */,
+				9D47C8927F142B506410D5A091408CC9 /* Model */,
+				4543C2D2A796C228DA246D901968010F /* Pod */,
+				506AF41984ED633D14CC71D169907F96 /* Protocol */,
+				EAF04C5012A0B1D65723C3812EE96DAB /* Support Files */,
+			);
+			name = ZCCMediator;
+			path = ../Mediator/ZCCMediator;
+			sourceTree = "<group>";
+		};
+		DD1265E4E886B6F3A44FA87DF2028083 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				39541799196776593C90D6725DB0D420 /* ZCCUIComponent.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DEA96839CB3D2A7B896E995DF6FD8981 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EFB420505ED92CA337C8F83E49F32A9 /* ZCCBaseAssetModule-dummy.m */,
+				07FB43B42CB3A93E2FB7EEDEFBF4A9F7 /* ZCCBaseAssetModule-prefix.pch */,
+				D4BB48BC103B3E6B768B9A0E79E3D625 /* ZCCBaseAssetModule.debug.xcconfig */,
+				E780EB085A7CF321B584E67DB33A4041 /* ZCCBaseAssetModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ZCCBaseAssetModule";
+			sourceTree = "<group>";
+		};
+		E5379C1510F240EEB14A857D96FDEE59 /* Pods-MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				6F9AD9F962BC2C85C4B43A1972841884 /* Pods-MainApp-acknowledgements.markdown */,
+				E6E64FFF4996AA4299E476E0A5B762EF /* Pods-MainApp-acknowledgements.plist */,
+				A354E98F4C2B56062B8D949C61A066D3 /* Pods-MainApp-dummy.m */,
+				6BBCA1F0E55795FFC7E0E2617CEA1E36 /* Pods-MainApp.debug.xcconfig */,
+				A93161121B08D05F8A10BA01DCA76973 /* Pods-MainApp.release.xcconfig */,
+			);
+			name = "Pods-MainApp";
+			path = "Target Support Files/Pods-MainApp";
+			sourceTree = "<group>";
+		};
+		EAF04C5012A0B1D65723C3812EE96DAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C2C602C0301B0CDB1792BAFEE5ADFB8 /* ZCCMediator-dummy.m */,
+				3FD5044BBB17A960750475ACD097F0EE /* ZCCMediator-prefix.pch */,
+				DC09B624A79AF0116056E28828D1821D /* ZCCMediator.debug.xcconfig */,
+				BAFB0640F10777A3701B24EFE5FC507B /* ZCCMediator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ZCCMediator";
+			sourceTree = "<group>";
+		};
+		F5E449366BBFFA7AC0696911AA95662B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1302065DC3EADCE3E0763753F8EAAC41 /* ZCCBenefitModule-dummy.m */,
+				ACDA1A3490FA67F09E1508AE9AE0E3D9 /* ZCCBenefitModule-prefix.pch */,
+				2CC9A0888054D3DC862EEF70D999CAAD /* ZCCBenefitModule.debug.xcconfig */,
+				555FCE63D9C65A05ABF3731A8A2C2A58 /* ZCCBenefitModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ZCCBenefitModule";
+			sourceTree = "<group>";
+		};
+		F9730DBFB4D08963EC681D0C15A2E5B2 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D2E4AF2E136DFC3D28F57D037F40F6E0 /* ZCCBenefitDetailVC.h */,
+				8FA02B0AB99517E7FF29FE6B8D05F89B /* ZCCBenefitDetailVC.m */,
+				1F9A9E8FC4660F851BCF3CC51AA98AF2 /* ZCCBenefitListVC.h */,
+				E3529C8DC557A97BC6B0337D748FA755 /* ZCCBenefitListVC.m */,
+			);
+			name = VC;
+			path = Classes/VC;
+			sourceTree = "<group>";
+		};
+		FA973DFF8A8CCE874DB17799E5FB3940 /* ZCCBenefitModule */ = {
+			isa = PBXGroup;
+			children = (
+				179B8CC9D95E191DFFF0976471E2B183 /* Module */,
+				83D489BF28E79BBA4C572B596B9F191C /* Pod */,
+				ACDB948E460E15CE6B35D84FE29E4756 /* Service */,
+				F5E449366BBFFA7AC0696911AA95662B /* Support Files */,
+				F9730DBFB4D08963EC681D0C15A2E5B2 /* VC */,
+			);
+			name = ZCCBenefitModule;
+			path = ../Business/ZCCBenefitModule;
+			sourceTree = "<group>";
+		};
+		FB2DBD3BF4DDA077D4E51E5ED2FD156F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D44E0D85E69BF917A912C8F7B8366031 /* ZCCWebComponent-dummy.m */,
+				D519A08BA6BAC004A8140F810FB9A602 /* ZCCWebComponent-prefix.pch */,
+				B2EB6AAA67ABB6E0E81F7727CD4F6101 /* ZCCWebComponent.debug.xcconfig */,
+				4608BCF5142BB895A60EE4F752ACB0C0 /* ZCCWebComponent.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ZCCWebComponent";
+			sourceTree = "<group>";
+		};
+		FCEA4F0E39E7486CD512901B61B5E8D6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1CA2FB91FEF859038E4F125BF9C5998E /* ZCCBaseAssetModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FDF6F4361EDA5E67111651E6291EB183 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				E89EBBD781415301F3E3EF893124A884 /* ZCCJSBridge.h */,
+				943F04A5CF9532ECB4B55E95CCFB8ED5 /* ZCCJSBridge.m */,
+			);
+			name = Bridge;
+			path = Classes/Bridge;
+			sourceTree = "<group>";
+		};
+		FEF0348F2F240D159594EE76C2A71995 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4DC6BD001F2E0FBC5F90DF1D189F9E24 /* ZCCCertificateModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FF19DDB93C6FE2C58CC80E0E6F0D55E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4187F6324280FAE69D0F433190D8C48 /* ZCCLogComponent-dummy.m */,
+				E350838F73D1233BA1EF6C21B31E031C /* ZCCLogComponent-prefix.pch */,
+				847DA76DE7DAA5905E2E1E03AB9F4EC1 /* ZCCLogComponent.debug.xcconfig */,
+				C5D562954DF5D6C44FEECFF63DB86278 /* ZCCLogComponent.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ZCCLogComponent";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12C88E4D1323D8C722A89B5DBF639AE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FD3903E58567A1EA0D27A5622015ED /* ZCCAssetActionCard.h in Headers */,
+				2BADDEBFEF0895C026207D157187A554 /* ZCCAssetService.h in Headers */,
+				8306069B090774F3EF3CCDCEB46D7935 /* ZCCAssetStateModel.h in Headers */,
+				20DD45C64848459238991CF53ADDA971 /* ZCCResaleCardView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141F4816B7810AE794A5AE63573BD744 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF247D9E4768D7D855EAD90E2839BB35 /* UIView+ZCCExtension.h in Headers */,
+				4B55C5D27AFE9C153C6A7F765F729F7B /* ZCCBannerView.h in Headers */,
+				BC725C6FF041C8BBCBEB790C9C97DA85 /* ZCCBaseNavigationController.h in Headers */,
+				5652A099D34C45E214D4AD6704BCC977 /* ZCCBaseTableViewCell.h in Headers */,
+				D53ACC3702CE5B923CB088CB1D0933D4 /* ZCCBaseViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEB00691ABDD7EC6463173D16229DE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D818592BDD03AA9EA8DA6832BFD1691C /* ZCCMediator.h in Headers */,
+				87F5AF587E0FE58B33214B983098D5ED /* ZCCMediator+Business.h in Headers */,
+				96D8B86BEFD8F9D46E452E3ED297C573 /* ZCCModuleDefines.h in Headers */,
+				8F65BA2818CFF9B89EE25146E9B3EB53 /* ZCCModuleProtocol.h in Headers */,
+				6649552079B3C86B6376693BBA487440 /* ZCCServiceProtocols.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F942EBA380D5130CE66E6188C859C8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D492CC72E4E28911679191CC9E41D6 /* ZCCProductDetailCard.h in Headers */,
+				7328E6B9D46F10A5C8583D0610825CEE /* ZCCProductDetailVC.h in Headers */,
+				FB0D58AC7219533A9AC10E896EA2A191 /* ZCCProductListVC.h in Headers */,
+				98BB279BA43BFF7BEC499766DE692E90 /* ZCCProductModule.h in Headers */,
+				748854517354A573104CF270AC2BD592 /* ZCCProductService.h in Headers */,
+				78A4DE21CC6E697201B2FD629D07EB34 /* ZCCProductTraceCard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872B8CB1343659C42CBE3E21F29BDC87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E92C4A1A1C5A494DDFF4041C4B4D7D /* ZCCOrderModule.h in Headers */,
+				79C8F9BA7733D24AFE78F1D601B93C91 /* ZCCOrderService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980C7FD398D8EC457121178576EE9A4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E615A5246174DB7EFEE3D92CBF1F9466 /* ZCCJSBridge.h in Headers */,
+				CCC63715BCBEB32CEEEE6833535982F3 /* ZCCWebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D217986B065A5DC152C1661F53D5A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F0659549E70A4350DB3BAEB6BD07F9 /* ZCCCertificateModule.h in Headers */,
+				E7AD4E9F420C2BE0F9E3E70C23DF2B20 /* ZCCCertificateService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B3A4581B1ADBC0DA33E6239D1A1520 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10722D96E098E6A499BB23BAA5BED5D8 /* ZCCLogFormatter.h in Headers */,
+				184DEEE1B42334A70EA4D6C92D6A463B /* ZCCLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4167B5C45E60826A96C21D8726C326A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4CCAA4066CF99A44F3381F7BDB20E6 /* ZCCAssetDetailVC.h in Headers */,
+				9BA3D69796270A9BEA2B9EA48621C6D1 /* ZCCAssetListVC.h in Headers */,
+				5995A39FBE2F7B3D814B420F04AA2AF8 /* ZCCAssetModule.h in Headers */,
+				8EE0A7D2E993318C8551C8713DEC0699 /* ZCCAssetViewHelper_1.h in Headers */,
+				BB4958548624B6213380F9AADAE491F2 /* ZCCAssetViewHelper_2.h in Headers */,
+				7CC9676D64614B328E52EFB7BA70F94E /* ZCCAssetViewHelper_3.h in Headers */,
+				CF69E4D36004A2F0872AC5C86958AF20 /* ZCCAssetViewHelper_4.h in Headers */,
+				5263DF841E95EC5412D60DA388822E61 /* ZCCAssetViewHelper_5.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88200793381AFD365C87173C993B084 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92631AB4A58C0394367C81BFC467D51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389D28E3F9AE2FD56054E8289E0BCE84 /* ZCCContractModule.h in Headers */,
+				B07045D3C2C9BD8BD7CE8DF4B5739864 /* ZCCContractService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5BB79DBDD9B88802E3D8736364E46B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC52E8D7CAB82F78B1225406AB80395 /* ZCCBenefitDetailVC.h in Headers */,
+				D301CCD0E10F3DE7BA98FF713C362D15 /* ZCCBenefitListVC.h in Headers */,
+				514812413BA27313CA6ACF37392EEB11 /* ZCCBenefitModule.h in Headers */,
+				095C27E8475B83EDD94D394B13D80D8D /* ZCCBenefitService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13167F2D378D259F74200461BBFE57D5 /* ZCCUIComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6218CAD48F9407884F447022BAB7ADD4 /* Build configuration list for PBXNativeTarget "ZCCUIComponent" */;
+			buildPhases = (
+				141F4816B7810AE794A5AE63573BD744 /* Headers */,
+				8B3518B125E6A27F9EBD42DA29B4216C /* Sources */,
+				1F2910DAE71E95E2F69EE5F166B5B587 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BEF07DA798D1BD90CBEEA17DC0C008F /* PBXTargetDependency */,
+			);
+			name = ZCCUIComponent;
+			productName = ZCCUIComponent;
+			productReference = D7F34104597F721A82FE4275ACFC3A1E /* ZCCUIComponent */;
+			productType = "com.apple.product-type.library.static";
+		};
+		43C3CDBD39D90A992552E457E8F82C05 /* ZCCContractModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6D61F09CBFAB5EA01217A2CAB8FB76C /* Build configuration list for PBXNativeTarget "ZCCContractModule" */;
+			buildPhases = (
+				E92631AB4A58C0394367C81BFC467D51 /* Headers */,
+				1EC94B3A5D2EB91980C344860944F234 /* Sources */,
+				B1F56171FA7B0B660404341081770632 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ACA16A9BA5DB9D60043F6965DFA6C1F /* PBXTargetDependency */,
+				8F939F9F5C01CA5821A6B32AC7CA820B /* PBXTargetDependency */,
+			);
+			name = ZCCContractModule;
+			productName = ZCCContractModule;
+			productReference = B88213F8606BCB0F061F09244B193AAF /* ZCCContractModule */;
+			productType = "com.apple.product-type.library.static";
+		};
+		58E5D4E5E8B41CE2FE753A17EF4BEE1B /* ZCCBaseAssetModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC82869A181D3ADA3EEDA06F58906856 /* Build configuration list for PBXNativeTarget "ZCCBaseAssetModule" */;
+			buildPhases = (
+				12C88E4D1323D8C722A89B5DBF639AE1 /* Headers */,
+				BDCD8B03C52AF1678537BD9C5354E4B4 /* Sources */,
+				09FDBA62D8F54A111693EA182F2EA44C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E30381D4E230C9AB28001D9C63FC23 /* PBXTargetDependency */,
+				1E4A67E6A2F61CEF1EC71340FE30BB0C /* PBXTargetDependency */,
+				6A4033356EDA220284E31BEA842A871F /* PBXTargetDependency */,
+				57D7C334E24A013A1BF43553495FF23D /* PBXTargetDependency */,
+			);
+			name = ZCCBaseAssetModule;
+			productName = ZCCBaseAssetModule;
+			productReference = 7039A2568A8E3B1A206A863EE899D24E /* ZCCBaseAssetModule */;
+			productType = "com.apple.product-type.library.static";
+		};
+		67EB5BC7D9426196FD1BA3114382B952 /* ZCCMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF22A44D13263409ABEF8A919E1B4F05 /* Build configuration list for PBXNativeTarget "ZCCMediator" */;
+			buildPhases = (
+				5CEB00691ABDD7EC6463173D16229DE0 /* Headers */,
+				87BB88B12BF33DCEFA0AC5CDA7679ECC /* Sources */,
+				F09CFB1F303E43D1F0D5393461C2BE80 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCCMediator;
+			productName = ZCCMediator;
+			productReference = 268A50E79E5FD5D8A452CEE599FC4F83 /* ZCCMediator */;
+			productType = "com.apple.product-type.library.static";
+		};
+		763330A0AC2D9B99F339A6395465FAF9 /* ZCCProductModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102CEC540CBEAB7811D6931ECBAF9B85 /* Build configuration list for PBXNativeTarget "ZCCProductModule" */;
+			buildPhases = (
+				7F942EBA380D5130CE66E6188C859C8A /* Headers */,
+				31A7835C1C371E0F5C53107B50ABB59D /* Sources */,
+				0595F7E4684040C3D23B0943C89541DC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4DA282E89FFA75C87080DE2667145DD /* PBXTargetDependency */,
+				5B5363920E38FC4CC5DC406A90EC2AA4 /* PBXTargetDependency */,
+				5EC88C2B7A4B0BCC40606506D7F78E61 /* PBXTargetDependency */,
+			);
+			name = ZCCProductModule;
+			productName = ZCCProductModule;
+			productReference = 3FC000DFE85E18722880CEFB75FEB62A /* ZCCProductModule */;
+			productType = "com.apple.product-type.library.static";
+		};
+		871B01FFC38593AFD7A992387E9BADA4 /* ZCCCertificateModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A790434985CE2FEF475222753B9DBA /* Build configuration list for PBXNativeTarget "ZCCCertificateModule" */;
+			buildPhases = (
+				C6D217986B065A5DC152C1661F53D5A3 /* Headers */,
+				0DCCC8A7A13FB81A50475B0132C0C838 /* Sources */,
+				1266C78C2A0A728A8D13520E805C9199 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2B29F3E1794E6BC93B42558B14B7F8B /* PBXTargetDependency */,
+				4391454A64156B79028527E56FC54A4F /* PBXTargetDependency */,
+			);
+			name = ZCCCertificateModule;
+			productName = ZCCCertificateModule;
+			productReference = 05CB0914CA9A7936D5C785B15B84D1CA /* ZCCCertificateModule */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A2BB69710C6C9D0AFA206502BC0EA5F6 /* ZCCOrderModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6612C113D4194EE80889E6031A6BC46A /* Build configuration list for PBXNativeTarget "ZCCOrderModule" */;
+			buildPhases = (
+				872B8CB1343659C42CBE3E21F29BDC87 /* Headers */,
+				CA1DF34937FF9143D8BD6BB696FAB03A /* Sources */,
+				A4685EF12E72082E64F4984383898909 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA64ECF520D96AB4EC450E1D5F3CA8DA /* PBXTargetDependency */,
+				48E356479F7F3742B8E1DF1B99A65AE7 /* PBXTargetDependency */,
+			);
+			name = ZCCOrderModule;
+			productName = ZCCOrderModule;
+			productReference = 0AE2D8E6F0B3D3B4B313137C00CE53C4 /* ZCCOrderModule */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ADCC8BDB7846C304B37BA0727F839584 /* ZCCWebComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC57A091A1DB6C3E0B196965B72BE8E9 /* Build configuration list for PBXNativeTarget "ZCCWebComponent" */;
+			buildPhases = (
+				980C7FD398D8EC457121178576EE9A4D /* Headers */,
+				848A884D8F7FC69DBD88AAC880C3818F /* Sources */,
+				5C64A20EC0B4FE1F7C22BE883CB5ACAF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC49618B0ACAF21B8C6388172297BBBD /* PBXTargetDependency */,
+			);
+			name = ZCCWebComponent;
+			productName = ZCCWebComponent;
+			productReference = 1D53C828E3AFF8A13A68373723168FBC /* ZCCWebComponent */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BDD24EE1219C3C048AFBD61E50FC66A2 /* Pods-MainApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2709CCAA5F6B0710C07CD18000AC5FC8 /* Build configuration list for PBXNativeTarget "Pods-MainApp" */;
+			buildPhases = (
+				D88200793381AFD365C87173C993B084 /* Headers */,
+				41428ECF9FE7E482449E0E0E1026DD57 /* Sources */,
+				7869587ED706212023217EC13DEC6C27 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD60D1CE39459C47C123DFB5C470A62 /* PBXTargetDependency */,
+				0A4F2CFB20BFB7700FFD50425AC364AD /* PBXTargetDependency */,
+				F0537A26AF27C45B5223C79F2DBA21F1 /* PBXTargetDependency */,
+				532C090857EED70FE24505DEFE555EF6 /* PBXTargetDependency */,
+				5EAF734514497C4D91F781A9D5BBCE4F /* PBXTargetDependency */,
+				D849AF805BA6A05FD62D7B9BC19FCF47 /* PBXTargetDependency */,
+				2D87FFD8FE8D075CACEF393C67B5F33A /* PBXTargetDependency */,
+				425E42B44003471592145EB0C03EE6BF /* PBXTargetDependency */,
+				6B15B783E374AA33494A91CF936EDAA1 /* PBXTargetDependency */,
+				274CAA09D2EF70D2286C88D34350293B /* PBXTargetDependency */,
+				CDDEE60600CF122D19171E0FE3D9DF90 /* PBXTargetDependency */,
+			);
+			name = "Pods-MainApp";
+			productName = "Pods-MainApp";
+			productReference = 053A33BDCEE6A67A4A8C914A817A46AE /* Pods-MainApp */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BEF71D4C439A779F1603FD248C6D5D2D /* ZCCAssetModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B716E2D00E46DC55098BDC5DF832FCB0 /* Build configuration list for PBXNativeTarget "ZCCAssetModule" */;
+			buildPhases = (
+				D4167B5C45E60826A96C21D8726C326A /* Headers */,
+				C498CED02C114D0169F666C0169ADF64 /* Sources */,
+				A4C823994E4F7C90F8BFA82D9E840EF4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C211BECEA5EA6725F700B87A7CCB41FA /* PBXTargetDependency */,
+			);
+			name = ZCCAssetModule;
+			productName = ZCCAssetModule;
+			productReference = D06768F687A34F9A6F7EFF1347F1FF86 /* ZCCAssetModule */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D19395C2073B7BB5330406C3DBEBC8A5 /* ZCCBenefitModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B70ADF6A66228B35FF1064886CAF48EB /* Build configuration list for PBXNativeTarget "ZCCBenefitModule" */;
+			buildPhases = (
+				EF5BB79DBDD9B88802E3D8736364E46B /* Headers */,
+				AD9703627954350AAFCCE7C85E7420FD /* Sources */,
+				2231302CBCED14F00D5E00C67F2712F1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4062CFEC09356672F36EFD424C6AD8D1 /* PBXTargetDependency */,
+				FCD4D43DA9CF83D457382D012842954E /* PBXTargetDependency */,
+				E54D6259364F2FB2B122EC750CCD8ED2 /* PBXTargetDependency */,
+			);
+			name = ZCCBenefitModule;
+			productName = ZCCBenefitModule;
+			productReference = 482CBE088F40CB04450FBBDCFE95CFB4 /* ZCCBenefitModule */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D39274A822090AF8725DA75C174D2D7C /* ZCCLogComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D24F088FE176F9132BEBFF34939348 /* Build configuration list for PBXNativeTarget "ZCCLogComponent" */;
+			buildPhases = (
+				C7B3A4581B1ADBC0DA33E6239D1A1520 /* Headers */,
+				27058BDD574A2727664D684EC2D0EF8B /* Sources */,
+				DEAC82A0DB793391C09A7852B7B57630 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCCLogComponent;
+			productName = ZCCLogComponent;
+			productReference = 741817373449575074E72DB36C3BC303 /* ZCCLogComponent */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 615B0A27645C3B4CCE62BA39EA6ADCE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDD24EE1219C3C048AFBD61E50FC66A2 /* Pods-MainApp */,
+				BEF71D4C439A779F1603FD248C6D5D2D /* ZCCAssetModule */,
+				58E5D4E5E8B41CE2FE753A17EF4BEE1B /* ZCCBaseAssetModule */,
+				D19395C2073B7BB5330406C3DBEBC8A5 /* ZCCBenefitModule */,
+				871B01FFC38593AFD7A992387E9BADA4 /* ZCCCertificateModule */,
+				43C3CDBD39D90A992552E457E8F82C05 /* ZCCContractModule */,
+				D39274A822090AF8725DA75C174D2D7C /* ZCCLogComponent */,
+				67EB5BC7D9426196FD1BA3114382B952 /* ZCCMediator */,
+				A2BB69710C6C9D0AFA206502BC0EA5F6 /* ZCCOrderModule */,
+				763330A0AC2D9B99F339A6395465FAF9 /* ZCCProductModule */,
+				13167F2D378D259F74200461BBFE57D5 /* ZCCUIComponent */,
+				ADCC8BDB7846C304B37BA0727F839584 /* ZCCWebComponent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DCCC8A7A13FB81A50475B0132C0C838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AFFFFC76CA421D1005B664F74C91AB /* ZCCCertificateModule.m in Sources */,
+				9AEA12295C9B31E127B562E5253542E3 /* ZCCCertificateModule-dummy.m in Sources */,
+				0ED68959AD5BF90680D980F29F6B892E /* ZCCCertificateService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EC94B3A5D2EB91980C344860944F234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6456983752A538DE5C257C78A669BCDF /* ZCCContractModule.m in Sources */,
+				92E78D5D115C39B838325ADE3475EEC8 /* ZCCContractModule-dummy.m in Sources */,
+				F62BB48A5B1599FD02219207084D7261 /* ZCCContractService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27058BDD574A2727664D684EC2D0EF8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781D0E3AD36DF03D67EF8799A86F4F64 /* ZCCLogComponent-dummy.m in Sources */,
+				BDA28160E2778A084E81DEDB6281341E /* ZCCLogFormatter.m in Sources */,
+				79D93CACDAF16EE14AE83E62A4D87DD7 /* ZCCLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31A7835C1C371E0F5C53107B50ABB59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3570CF3A4B297358F5CCDDCA763F6DDC /* ZCCProductDetailCard.m in Sources */,
+				635A85076A0041B6012A870475C9EBDC /* ZCCProductDetailVC.m in Sources */,
+				17A2959EC9098BF12266DD1F5E3E56E8 /* ZCCProductListVC.m in Sources */,
+				98A7DB8DC47077BACC744E6B867A3BC8 /* ZCCProductModule.m in Sources */,
+				4D23C52D6325DB5EBA75EDFEA8574C45 /* ZCCProductModule-dummy.m in Sources */,
+				62BABD67FEA80955575093B8DE3BDF2C /* ZCCProductService.m in Sources */,
+				E7812A5ACE1E24A0502583FC3C90EB48 /* ZCCProductTraceCard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41428ECF9FE7E482449E0E0E1026DD57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38333FF3C18C54E7D019B94B4E51F1AE /* Pods-MainApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A884D8F7FC69DBD88AAC880C3818F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0F4F9DA7B42D4AEF141F9B26E8902A /* ZCCJSBridge.m in Sources */,
+				B5CF8B368779DFBDC9937C15C8D308D0 /* ZCCWebComponent-dummy.m in Sources */,
+				D97510D13DF2D279DCE1ED919956DD1B /* ZCCWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BB88B12BF33DCEFA0AC5CDA7679ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B7EC92561B45A739C27413937BCE23 /* ZCCMediator.m in Sources */,
+				AF423AF609EE5E118BCB697263230080 /* ZCCMediator+Business.m in Sources */,
+				CFEFFAA4444A5692A26C8F379529B009 /* ZCCMediator-dummy.m in Sources */,
+				E13B73644A81EB43882D887D5D96E56A /* ZCCServiceModels.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3518B125E6A27F9EBD42DA29B4216C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16524108D24EAF4FE5175A0768888CE2 /* UIView+ZCCExtension.m in Sources */,
+				F505448A245A07CB2B6A84FC1AB47099 /* ZCCBannerView.m in Sources */,
+				0AEBAE20D86CDC7FCBAACAB1AA273AD7 /* ZCCBaseNavigationController.m in Sources */,
+				803BB67AC0E8AADEB7C3539274154AE2 /* ZCCBaseTableViewCell.m in Sources */,
+				8BA850D834D7DC0F6AA263C19CBE1558 /* ZCCBaseViewController.m in Sources */,
+				87264751BF64CF98CBBC3A58544A89D3 /* ZCCUIComponent-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9703627954350AAFCCE7C85E7420FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F25C72726EE2249485ED7E44C1B8697 /* ZCCBenefitDetailVC.m in Sources */,
+				F28A8F0CD5EE3C035658681A18064B56 /* ZCCBenefitListVC.m in Sources */,
+				841BA4CAF52D25282D15DCBBDC2AD298 /* ZCCBenefitModule.m in Sources */,
+				262C042C7F551FBB90B48978147FAEBF /* ZCCBenefitModule-dummy.m in Sources */,
+				EC2EA1402B3C7671A43E38FDFFED0D8B /* ZCCBenefitService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCD8B03C52AF1678537BD9C5354E4B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA91DC9835F8415618F570C083E88B7D /* ZCCAssetActionCard.m in Sources */,
+				AC81312985F40A9826200A1AC88088ED /* ZCCAssetService.m in Sources */,
+				0124A9900FD1612E05AA3E31BEF90ED3 /* ZCCAssetStateModel.m in Sources */,
+				6E5CF3E548045FCAC2161E9163257144 /* ZCCBaseAssetModule-dummy.m in Sources */,
+				A679E3D501F83ABF21CC7B7D22FBCDB9 /* ZCCResaleCardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C498CED02C114D0169F666C0169ADF64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CD1D33F36E0ECA3BBA92BBD4617EB0 /* ZCCAssetDetailVC.m in Sources */,
+				1CDB1ABBB11DEE7606E10EC0CF735D58 /* ZCCAssetListVC.m in Sources */,
+				5A7ED8215E46F60AF82AB991414ACE58 /* ZCCAssetModule.m in Sources */,
+				7C1129EB67E6E3DBF11B25FC6D540E8E /* ZCCAssetModule-dummy.m in Sources */,
+				7441A5749F40A50789D71C82CDB66706 /* ZCCAssetViewHelper_1.m in Sources */,
+				62C7695351331413A7D811531F882CB7 /* ZCCAssetViewHelper_2.m in Sources */,
+				A30A1973F2131742A3B1EE04BA34D730 /* ZCCAssetViewHelper_3.m in Sources */,
+				166DEE811D3D03AABFF6BDD3A4114C7D /* ZCCAssetViewHelper_4.m in Sources */,
+				937CD6F526C39E17D782FFEA77221B37 /* ZCCAssetViewHelper_5.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1DF34937FF9143D8BD6BB696FAB03A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35980579C97E2078898E7AA942664439 /* ZCCOrderModule.m in Sources */,
+				2F237932582A6CA7E19381154A4A213B /* ZCCOrderModule-dummy.m in Sources */,
+				4BBB64C46A06319337B52A9EA37801A0 /* ZCCOrderService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A4F2CFB20BFB7700FFD50425AC364AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCBaseAssetModule;
+			target = 58E5D4E5E8B41CE2FE753A17EF4BEE1B /* ZCCBaseAssetModule */;
+			targetProxy = 8652CC8ACAEA29CDB4B519CC81723860 /* PBXContainerItemProxy */;
+		};
+		0ACA16A9BA5DB9D60043F6965DFA6C1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCLogComponent;
+			target = D39274A822090AF8725DA75C174D2D7C /* ZCCLogComponent */;
+			targetProxy = 18231179CD1AC07A59B334A305FEAEE9 /* PBXContainerItemProxy */;
+		};
+		1E4A67E6A2F61CEF1EC71340FE30BB0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCMediator;
+			target = 67EB5BC7D9426196FD1BA3114382B952 /* ZCCMediator */;
+			targetProxy = 0E42A0B157F6EB50C79F98978158A7E0 /* PBXContainerItemProxy */;
+		};
+		274CAA09D2EF70D2286C88D34350293B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCUIComponent;
+			target = 13167F2D378D259F74200461BBFE57D5 /* ZCCUIComponent */;
+			targetProxy = 1EB29137E6DB3841D48CAC8081371D11 /* PBXContainerItemProxy */;
+		};
+		2BEF07DA798D1BD90CBEEA17DC0C008F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCLogComponent;
+			target = D39274A822090AF8725DA75C174D2D7C /* ZCCLogComponent */;
+			targetProxy = 817BEA7F2DA956013EB6DA12CADAC538 /* PBXContainerItemProxy */;
+		};
+		2D87FFD8FE8D075CACEF393C67B5F33A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCMediator;
+			target = 67EB5BC7D9426196FD1BA3114382B952 /* ZCCMediator */;
+			targetProxy = D2D67F97AF64692BB5FF9CF917AEED10 /* PBXContainerItemProxy */;
+		};
+		4062CFEC09356672F36EFD424C6AD8D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCLogComponent;
+			target = D39274A822090AF8725DA75C174D2D7C /* ZCCLogComponent */;
+			targetProxy = D39B8D5F232B807852709925FD494C3E /* PBXContainerItemProxy */;
+		};
+		425E42B44003471592145EB0C03EE6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCOrderModule;
+			target = A2BB69710C6C9D0AFA206502BC0EA5F6 /* ZCCOrderModule */;
+			targetProxy = 288A053F5C64614F1E643A1677B58E42 /* PBXContainerItemProxy */;
+		};
+		4391454A64156B79028527E56FC54A4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCMediator;
+			target = 67EB5BC7D9426196FD1BA3114382B952 /* ZCCMediator */;
+			targetProxy = 074A21300BDFB58CF8569B7596EA3307 /* PBXContainerItemProxy */;
+		};
+		48E356479F7F3742B8E1DF1B99A65AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCMediator;
+			target = 67EB5BC7D9426196FD1BA3114382B952 /* ZCCMediator */;
+			targetProxy = 26A42D3F0C0B4805390F45D172EB29A6 /* PBXContainerItemProxy */;
+		};
+		532C090857EED70FE24505DEFE555EF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCCertificateModule;
+			target = 871B01FFC38593AFD7A992387E9BADA4 /* ZCCCertificateModule */;
+			targetProxy = 630C4DCBCA0BCF94EC426558C2C920E1 /* PBXContainerItemProxy */;
+		};
+		57D7C334E24A013A1BF43553495FF23D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCWebComponent;
+			target = ADCC8BDB7846C304B37BA0727F839584 /* ZCCWebComponent */;
+			targetProxy = 0C5D07E8A9E559262D0438EC7FFA2761 /* PBXContainerItemProxy */;
+		};
+		5B5363920E38FC4CC5DC406A90EC2AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCMediator;
+			target = 67EB5BC7D9426196FD1BA3114382B952 /* ZCCMediator */;
+			targetProxy = 2484A0875559C60F9033C21474452E4E /* PBXContainerItemProxy */;
+		};
+		5EAF734514497C4D91F781A9D5BBCE4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCContractModule;
+			target = 43C3CDBD39D90A992552E457E8F82C05 /* ZCCContractModule */;
+			targetProxy = DB938E1F32BE0A00E169B57B359F65F6 /* PBXContainerItemProxy */;
+		};
+		5EC88C2B7A4B0BCC40606506D7F78E61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCUIComponent;
+			target = 13167F2D378D259F74200461BBFE57D5 /* ZCCUIComponent */;
+			targetProxy = D56DA620D986E5651F3B71570CBE62EF /* PBXContainerItemProxy */;
+		};
+		6A4033356EDA220284E31BEA842A871F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCUIComponent;
+			target = 13167F2D378D259F74200461BBFE57D5 /* ZCCUIComponent */;
+			targetProxy = 4661CF9D6879FB287D498B37B62B784A /* PBXContainerItemProxy */;
+		};
+		6B15B783E374AA33494A91CF936EDAA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCProductModule;
+			target = 763330A0AC2D9B99F339A6395465FAF9 /* ZCCProductModule */;
+			targetProxy = 25C95EB8F18119C281079F1E60728CAF /* PBXContainerItemProxy */;
+		};
+		8F939F9F5C01CA5821A6B32AC7CA820B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCMediator;
+			target = 67EB5BC7D9426196FD1BA3114382B952 /* ZCCMediator */;
+			targetProxy = 4CBD74BBCE491AF4AD992AC8385CEC81 /* PBXContainerItemProxy */;
+		};
+		AFD60D1CE39459C47C123DFB5C470A62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCAssetModule;
+			target = BEF71D4C439A779F1603FD248C6D5D2D /* ZCCAssetModule */;
+			targetProxy = 9F165726331CBDEDDF40D645CC217DC2 /* PBXContainerItemProxy */;
+		};
+		BA64ECF520D96AB4EC450E1D5F3CA8DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCLogComponent;
+			target = D39274A822090AF8725DA75C174D2D7C /* ZCCLogComponent */;
+			targetProxy = 5D4E56C302EF52135E7259B006AF5667 /* PBXContainerItemProxy */;
+		};
+		C211BECEA5EA6725F700B87A7CCB41FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCBaseAssetModule;
+			target = 58E5D4E5E8B41CE2FE753A17EF4BEE1B /* ZCCBaseAssetModule */;
+			targetProxy = 7F175E3B98C26635D3EDB7C2B0600D5E /* PBXContainerItemProxy */;
+		};
+		CDDEE60600CF122D19171E0FE3D9DF90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCWebComponent;
+			target = ADCC8BDB7846C304B37BA0727F839584 /* ZCCWebComponent */;
+			targetProxy = 5EF43EE07053E223F33210563CA6F458 /* PBXContainerItemProxy */;
+		};
+		D4E30381D4E230C9AB28001D9C63FC23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCLogComponent;
+			target = D39274A822090AF8725DA75C174D2D7C /* ZCCLogComponent */;
+			targetProxy = 30ED970D82B26D9D782CF7F645839C67 /* PBXContainerItemProxy */;
+		};
+		D849AF805BA6A05FD62D7B9BC19FCF47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCLogComponent;
+			target = D39274A822090AF8725DA75C174D2D7C /* ZCCLogComponent */;
+			targetProxy = 77CDD28C947E7A788828095248244F73 /* PBXContainerItemProxy */;
+		};
+		E2B29F3E1794E6BC93B42558B14B7F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCLogComponent;
+			target = D39274A822090AF8725DA75C174D2D7C /* ZCCLogComponent */;
+			targetProxy = DFF8A04FD835CAC183C8F7020B4AB983 /* PBXContainerItemProxy */;
+		};
+		E54D6259364F2FB2B122EC750CCD8ED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCUIComponent;
+			target = 13167F2D378D259F74200461BBFE57D5 /* ZCCUIComponent */;
+			targetProxy = 1B061D2B3A9992AAB793E8F7120CB5AC /* PBXContainerItemProxy */;
+		};
+		F0537A26AF27C45B5223C79F2DBA21F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCBenefitModule;
+			target = D19395C2073B7BB5330406C3DBEBC8A5 /* ZCCBenefitModule */;
+			targetProxy = 51963BBEE2E2DECD491384A390002014 /* PBXContainerItemProxy */;
+		};
+		F4DA282E89FFA75C87080DE2667145DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCLogComponent;
+			target = D39274A822090AF8725DA75C174D2D7C /* ZCCLogComponent */;
+			targetProxy = 77243BB54A0E22F98A4C3CF66773837A /* PBXContainerItemProxy */;
+		};
+		FC49618B0ACAF21B8C6388172297BBBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCLogComponent;
+			target = D39274A822090AF8725DA75C174D2D7C /* ZCCLogComponent */;
+			targetProxy = D587C36BF9743BB69C9EDAF055AE94BF /* PBXContainerItemProxy */;
+		};
+		FCD4D43DA9CF83D457382D012842954E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCCMediator;
+			target = 67EB5BC7D9426196FD1BA3114382B952 /* ZCCMediator */;
+			targetProxy = B05A416929FAA70CF2FCF6099BF329C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12DCB685496EBE039DFEA7E2FC3D13CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C86733871559BD0FA4A5ECEF8966A35 /* ZCCContractModule.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCContractModule/ZCCContractModule-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCContractModule;
+				PRODUCT_NAME = ZCCContractModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		234725D2EAF117721A2EE9FDF4850ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847DA76DE7DAA5905E2E1E03AB9F4EC1 /* ZCCLogComponent.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCLogComponent/ZCCLogComponent-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCLogComponent;
+				PRODUCT_NAME = ZCCLogComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		235637E0508546E20723CC2E88D18341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8DDC3FB607C568D4B3B523E476CAF0 /* ZCCOrderModule.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCOrderModule/ZCCOrderModule-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCOrderModule;
+				PRODUCT_NAME = ZCCOrderModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23B3955659832D500A153769F2758617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A71878DB2AD726B1D946D6A6695E33 /* ZCCAssetModule.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCAssetModule/ZCCAssetModule-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCAssetModule;
+				PRODUCT_NAME = ZCCAssetModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26602937278C592C78838BA072F7003A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E780EB085A7CF321B584E67DB33A4041 /* ZCCBaseAssetModule.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCBaseAssetModule/ZCCBaseAssetModule-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCBaseAssetModule;
+				PRODUCT_NAME = ZCCBaseAssetModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27E07E0F287A8F09F3583EFA9AF28A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E26C646C58DBA75B7CE53761650C11BB /* ZCCAssetModule.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCAssetModule/ZCCAssetModule-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCAssetModule;
+				PRODUCT_NAME = ZCCAssetModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F2FE788B8E20DF5F812782B1A829A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42D23182946DB8CA9BD9656137A5DCB /* ZCCUIComponent.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCUIComponent/ZCCUIComponent-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCUIComponent;
+				PRODUCT_NAME = ZCCUIComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40146FAA513C42CA589048B3EC2974F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93161121B08D05F8A10BA01DCA76973 /* Pods-MainApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C7B1208410DEFD5CCBB4A240AD7390E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E0B5E4D3FEC9C51A2F01F7C1C6680A /* ZCCCertificateModule.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCCertificateModule/ZCCCertificateModule-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCCertificateModule;
+				PRODUCT_NAME = ZCCCertificateModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C8C59A6AE5476AE280EE44021045DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7866558E9C9AF25140FF14CDBF8EAE32 /* ZCCProductModule.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCProductModule/ZCCProductModule-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCProductModule;
+				PRODUCT_NAME = ZCCProductModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63388B828A921ADC11938EF996958E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC09B624A79AF0116056E28828D1821D /* ZCCMediator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCMediator/ZCCMediator-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCMediator;
+				PRODUCT_NAME = ZCCMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		894469052C9CA4A1D76A01CE610072A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BBCA1F0E55795FFC7E0E2617CEA1E36 /* Pods-MainApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		96E429E7297A761A4B752CFEC4A2ED07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFB0640F10777A3701B24EFE5FC507B /* ZCCMediator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCMediator/ZCCMediator-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCMediator;
+				PRODUCT_NAME = ZCCMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DABB8475975E2DB439FA0F3A0109F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD525950BD4FFE3F787B2FBCEB2DEFE /* ZCCContractModule.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCContractModule/ZCCContractModule-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCContractModule;
+				PRODUCT_NAME = ZCCContractModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B96453C32E65277339B58CEF3208DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9DA8DFFDAA9D543EB939D53B7E19BC9 /* ZCCUIComponent.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCUIComponent/ZCCUIComponent-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCUIComponent;
+				PRODUCT_NAME = ZCCUIComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5F2DD2757BA5613B11A16EAFE0FC71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A10B29FF46392F9E98F80F4ABA0D9D /* ZCCCertificateModule.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCCertificateModule/ZCCCertificateModule-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCCertificateModule;
+				PRODUCT_NAME = ZCCCertificateModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC6DFD8775A39D6DA7D823F280F6C77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4BB48BC103B3E6B768B9A0E79E3D625 /* ZCCBaseAssetModule.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCBaseAssetModule/ZCCBaseAssetModule-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCBaseAssetModule;
+				PRODUCT_NAME = ZCCBaseAssetModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3B4B19DFF1A3B23CF755937315E8723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4608BCF5142BB895A60EE4F752ACB0C0 /* ZCCWebComponent.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCWebComponent/ZCCWebComponent-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCWebComponent;
+				PRODUCT_NAME = ZCCWebComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4CEDEF6C42CCD840835A2B0CE022C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555FCE63D9C65A05ABF3731A8A2C2A58 /* ZCCBenefitModule.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCBenefitModule/ZCCBenefitModule-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCBenefitModule;
+				PRODUCT_NAME = ZCCBenefitModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E493243A4645B6FDB22C53BBEB10E490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB27702FB534E4F28C23D93353D6FAD1 /* ZCCProductModule.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCProductModule/ZCCProductModule-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCProductModule;
+				PRODUCT_NAME = ZCCProductModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA63AFE2486CC2C7C0645E55B040E0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2EB6AAA67ABB6E0E81F7727CD4F6101 /* ZCCWebComponent.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCWebComponent/ZCCWebComponent-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCWebComponent;
+				PRODUCT_NAME = ZCCWebComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3B06936E7997B803D3880BA13A95DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC9A0888054D3DC862EEF70D999CAAD /* ZCCBenefitModule.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCBenefitModule/ZCCBenefitModule-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCBenefitModule;
+				PRODUCT_NAME = ZCCBenefitModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F828E4249FF73E4E4FDF62C5439B7807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D562954DF5D6C44FEECFF63DB86278 /* ZCCLogComponent.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCLogComponent/ZCCLogComponent-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCLogComponent;
+				PRODUCT_NAME = ZCCLogComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8B5438881D7907EF9446E993C3FA97B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF15BB0821AB88B052466696635DEDF /* ZCCOrderModule.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCCOrderModule/ZCCOrderModule-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZCCOrderModule;
+				PRODUCT_NAME = ZCCOrderModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		102CEC540CBEAB7811D6931ECBAF9B85 /* Build configuration list for PBXNativeTarget "ZCCProductModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8C59A6AE5476AE280EE44021045DDE /* Debug */,
+				E493243A4645B6FDB22C53BBEB10E490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2709CCAA5F6B0710C07CD18000AC5FC8 /* Build configuration list for PBXNativeTarget "Pods-MainApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894469052C9CA4A1D76A01CE610072A7 /* Debug */,
+				40146FAA513C42CA589048B3EC2974F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D24F088FE176F9132BEBFF34939348 /* Build configuration list for PBXNativeTarget "ZCCLogComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234725D2EAF117721A2EE9FDF4850ECB /* Debug */,
+				F828E4249FF73E4E4FDF62C5439B7807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6218CAD48F9407884F447022BAB7ADD4 /* Build configuration list for PBXNativeTarget "ZCCUIComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2FE788B8E20DF5F812782B1A829A2E /* Debug */,
+				A1B96453C32E65277339B58CEF3208DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6612C113D4194EE80889E6031A6BC46A /* Build configuration list for PBXNativeTarget "ZCCOrderModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B5438881D7907EF9446E993C3FA97B /* Debug */,
+				235637E0508546E20723CC2E88D18341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B70ADF6A66228B35FF1064886CAF48EB /* Build configuration list for PBXNativeTarget "ZCCBenefitModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B06936E7997B803D3880BA13A95DD2 /* Debug */,
+				D4CEDEF6C42CCD840835A2B0CE022C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B716E2D00E46DC55098BDC5DF832FCB0 /* Build configuration list for PBXNativeTarget "ZCCAssetModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B3955659832D500A153769F2758617 /* Debug */,
+				27E07E0F287A8F09F3583EFA9AF28A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6D61F09CBFAB5EA01217A2CAB8FB76C /* Build configuration list for PBXNativeTarget "ZCCContractModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DABB8475975E2DB439FA0F3A0109F42 /* Debug */,
+				12DCB685496EBE039DFEA7E2FC3D13CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC57A091A1DB6C3E0B196965B72BE8E9 /* Build configuration list for PBXNativeTarget "ZCCWebComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA63AFE2486CC2C7C0645E55B040E0C1 /* Debug */,
+				C3B4B19DFF1A3B23CF755937315E8723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9A790434985CE2FEF475222753B9DBA /* Build configuration list for PBXNativeTarget "ZCCCertificateModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C7B1208410DEFD5CCBB4A240AD7390E /* Debug */,
+				A5F2DD2757BA5613B11A16EAFE0FC71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC82869A181D3ADA3EEDA06F58906856 /* Build configuration list for PBXNativeTarget "ZCCBaseAssetModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6DFD8775A39D6DA7D823F280F6C77B /* Debug */,
+				26602937278C592C78838BA072F7003A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF22A44D13263409ABEF8A919E1B4F05 /* Build configuration list for PBXNativeTarget "ZCCMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63388B828A921ADC11938EF996958E19 /* Debug */,
+				96E429E7297A761A4B752CFEC4A2ED07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

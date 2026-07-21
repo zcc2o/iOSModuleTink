@@ -1,0 +1,24 @@
+{
+  "name": "ZCCAssetModule",
+  "version": "1.0.0",
+  "summary": "ZCCAssetModule",
+  "homepage": "https://github.com/example/ZCCAssetModule",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": "ComponentizedApp",
+  "source": {
+    "git": "https://github.com/example/ZCCAssetModule.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "frameworks": "WebKit",
+  "requires_arc": true,
+  "dependencies": {
+    "ZCCBaseAssetModule": []
+  },
+  "source_files": "Classes/**/*.{h,m}",
+  "public_header_files": "Classes/**/*.h"
+}
