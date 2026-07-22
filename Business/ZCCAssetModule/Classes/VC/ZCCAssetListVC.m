@@ -19,9 +19,9 @@
     self.title = @"我的资产";
 
     self.dataSource = @[
-        @{@"id": @"A001", @"name": @"保证金",     @"value": @"¥60,000.00"},
-        @{@"id": @"A002", @"name": @"预付款",     @"value": @"¥30,000.00"},
-        @{@"id": @"A003", @"name": @"返利余额",   @"value": @"¥38,888.88"},
+        @{@"id": @"A001", @"name": @"黄花梨",     @"value": @"15年龄"},
+        @{@"id": @"A002", @"name": @"黄花梨",     @"value": @"25年龄"},
+        @{@"id": @"A003", @"name": @"黄花梨",   @"value": @"35年龄"},
     ];
 
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
